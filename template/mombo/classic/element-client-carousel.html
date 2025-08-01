@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Client Slider",
+            })
+            <!-- Section -->
+            <div class="section bg-gray-100">
+                <div class="container">
+                    <div class="swiper swiper-container" data-swiper-options='{
+                                  "slidesPerView": 3,
+                                  "spaceBetween": 24,
+                                  "loop": true,
+                                  "breakpoints": {
+                                    "650": {
+                                      "slidesPerView": 4
+                                    },
+                                    "991": {
+                                      "slidesPerView": 5
+                                    },
+                                    "1024": {
+                                      "slidesPerView": 7
+                                    }
+                                  }
+                                }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="px-3 py-3">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/airbnb.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-3 py-3">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/spotify.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-3 py-3">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/paypal.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-3 py-3">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/slack.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-3 py-3">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/spotify.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-3 py-3">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/airbnb.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-3 py-3">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/amazon.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+            <!-- Section -->
+            <div class="section">
+                <div class="container">
+                    <div class="bg-body shadow-lg p-4 position-relative rounded">
+                        <div class="swiper swiper-container" data-swiper-options='{
+                                  "slidesPerView": 3,
+                                  "spaceBetween": 24,
+                                  "breakpoints": {
+                                    "650": {
+                                      "slidesPerView": 4
+                                    },
+                                    "991": {
+                                      "slidesPerView": 4
+                                    },
+                                    "1024": {
+                                      "slidesPerView": 6
+                                    }
+                                  }
+                                }'>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="grayscale-hover px-4 py-4">
+                                        <a href="#">
+                                            <img src="../assets/img/brand/airbnb.svg" title="" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="grayscale-hover px-4 py-4">
+                                        <a href="#">
+                                            <img src="../assets/img/brand/spotify.svg" title="" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="grayscale-hover px-4 py-4">
+                                        <a href="#">
+                                            <img src="../assets/img/brand/paypal.svg" title="" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="grayscale-hover px-4 py-4">
+                                        <a href="#">
+                                            <img src="../assets/img/brand/slack.svg" title="" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="grayscale-hover px-4 py-4">
+                                        <a href="#">
+                                            <img src="../assets/img/brand/spotify.svg" title="" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="grayscale-hover px-4 py-4">
+                                        <a href="#">
+                                            <img src="../assets/img/brand/airbnb.svg" title="" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="grayscale-hover px-4 py-4">
+                                        <a href="#">
+                                            <img src="../assets/img/brand/amazon.svg" title="" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+            <!-- Section -->
+            <div class="section bg-gray-100">
+                <div class="container">
+                    <div class="swiper swiper-container" data-swiper-options='{
+                                  "slidesPerView": 3,
+                                  "spaceBetween": 20,
+                                  "breakpoints": {
+                                    "650": {
+                                      "slidesPerView": 4
+                                    },
+                                    "991": {
+                                      "slidesPerView": 4
+                                    },
+                                    "1024": {
+                                      "slidesPerView": 6
+                                    }
+                                  }
+                                }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card card-body">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/airbnb.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-body">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/spotify.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-body">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/paypal.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-body">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/slack.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-body">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/spotify.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-body">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/airbnb.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card-body">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/amazon.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

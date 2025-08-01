@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+    "path": "",
+    "FontsURL":
+    "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+    "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+        "path": "..",
+        "imgPath": "../../assets",
+        "HeaderClass": "navbar-light fixed-top",
+        "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Section -->
+            <section class="position-relative overflow-hidden">
+                <!-- @s BG Effect -->
+                <div class="pe-none position-absolute start-0 top-0 mx-auto mt-n5 ms-n5 mt-lg-n10 ms-lg-n10 w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 200px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 192" fill="none" class="text-warning w-100">
+                        <path d="M49.234 40.7275C50.7799 37.5066 53.9267 35.3552 57.489 35.0836L119.332 30.3681C122.895 30.0965 126.331 31.746 128.348 34.6952L163.353 85.8953C165.369 88.8446 165.659 92.6455 164.113 95.8664L137.275 151.782C135.729 155.003 132.583 157.154 129.02 157.426L67.177 162.141C63.6147 162.413 60.178 160.763 58.1617 157.814L23.1563 106.614C21.1399 103.665 20.8501 99.8639 22.396 96.6431L49.234 40.7275Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <div class="pe-none position-absolute end-0 bottom-0 me-n4 mb-n4 me-lg-n8 mb-lg-n8 w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 150px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 192" fill="none" class="text-warning">
+                        <path d="M49.234 40.7275C50.7799 37.5066 53.9267 35.3552 57.489 35.0836L119.332 30.3681C122.895 30.0965 126.331 31.746 128.348 34.6952L163.353 85.8953C165.369 88.8446 165.659 92.6455 164.113 95.8664L137.275 151.782C135.729 155.003 132.583 157.154 129.02 157.426L67.177 162.141C63.6147 162.413 60.178 160.763 58.1617 157.814L23.1563 106.614C21.1399 103.665 20.8501 99.8639 22.396 96.6431L49.234 40.7275Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <img class="position-absolute bottom-0 start-0 pe-none w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 250px;" src="../assets/img/effect/polygon-01.png" title="" alt="">
+                <img class="position-absolute top-0 end-0 pe-none w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 150px;" src="../assets/img/effect/polygon-02.png" title="" alt="">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center pt-5 pt-lg-10 flex-row-reverse">
+                        <div class="col-lg-5 ms-lg-auto ps-lg-7 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card mt-10 mb-8">
+                                <div class="card-body">
+                                    <h3 class="h2">Register your account here</h3>
+                                    <p class="fs-lg">Start your 14 days free trial.</p>
+                                    <form class="pt-2" method="post">
+                                        <div class="mb-3 form-floating">
+                                            <input id="contact-name" type="text" name="name" placeholder="Your Name" class="form-control">
+                                            <label class="form-label" for="contact-name">Your Name</label>
+                                        </div>
+                                        <div class="mb-3 form-floating">
+                                            <input id="contact-email" type="email" name="email" placeholder="Email Address" class="form-control">
+                                            <label class="form-label" for="contact-email">Email Address</label>
+                                        </div>
+                                        <div class="mb-3 form-floating">
+                                            <input id="contact-subject" type="text" name="subject" placeholder="Phone Number" class="form-control">
+                                            <label class="form-label" for="contact-email">Phone Number</label>
+                                        </div>
+                                        <div class="mb-3 form-floating">
+                                            <input type="password" name="contact-company" class="form-control" placeholder="Password" id="contact-company">
+                                            <label class="form-label" for="contact-company">Password</label>
+                                        </div>
+                                        <div class="mb-3 form-floating">
+                                            <input type="password" name="contact-company01" class="form-control" placeholder="Repeat Password" id="contact-company01">
+                                            <label class="form-label" for="contact-company01">Repeat Password</label>
+                                        </div>
+                                        <div class="mb-3">
+                                            <button class="btn btn-primary w-100" type="submit" name="send">Start my free trial</button>
+                                        </div>
+                                        <p class="fs-lg m-0">Already have an account? <a href="#">Sign in</a> </p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 align-self-end wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/home-banner/home-banner.jpg" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section shadow-lg">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h6 class="text-primary mb-3">What We provide</h6>
+                            <h3 class="h1 mb-0">We provide advanced solutions to growin your online business</h3>
+                        </div>
+                    </div>
+                    <div class="row separated">
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="py-5 px-4">
+                                <div class="position-relative icon-lg justify-content-start mb-4">
+                                    <span class="position-absolute top-0 end-0 bottom-0 start-0 bg-primary bg-opacity-10 ms-n2 me-4"> </span>
+                                    <i class="fs-1 text-primary bi bi-laptop"></i>
+                                </div>
+                                <h5 class="mb-3">Fully Responsive</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="py-5 px-4">
+                                <div class="position-relative icon-lg justify-content-start mb-4">
+                                    <span class="position-absolute top-0 end-0 bottom-0 start-0 bg-warning bg-opacity-10 ms-n2 me-4"> </span>
+                                    <i class="fs-1 text-warning bi bi-globe"></i>
+                                </div>
+                                <h5 class="mb-3">Retina Ready</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="py-5 px-4">
+                                <div class="position-relative icon-lg justify-content-start mb-4">
+                                    <span class="position-absolute top-0 end-0 bottom-0 start-0 bg-success bg-opacity-10 ms-n2 me-4"> </span>
+                                    <i class="fs-1 text-success bi bi-eye"></i>
+                                </div>
+                                <h5 class="mb-3">Bootstrap Icon</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="py-5 px-4">
+                                <div class="position-relative icon-lg justify-content-start mb-4">
+                                    <span class="position-absolute top-0 end-0 bottom-0 start-0 bg-info-soft ms-n2 me-4"> </span>
+                                    <i class="fs-1 text-info bi bi-bootstrap"></i>
+                                </div>
+                                <h5 class="mb-3">Built With SASS</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="py-5 px-4">
+                                <div class="position-relative icon-lg justify-content-start mb-4">
+                                    <span class="position-absolute top-0 end-0 bottom-0 start-0 bg-info-soft ms-n2 me-4"> </span>
+                                    <i class="fs-1 text-info bi bi-window"></i>
+                                </div>
+                                <h5 class="mb-3">Business Stratagy</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="py-5 px-4">
+                                <div class="position-relative icon-lg justify-content-start mb-4">
+                                    <span class="position-absolute top-0 end-0 bottom-0 start-0 bg-dark-soft ms-n2 me-4"> </span>
+                                    <i class="fs-1 text-dark bi bi-code-square"></i>
+                                </div>
+                                <h5 class="mb-3">W3c Valid Code</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="py-5 px-4">
+                                <div class="position-relative icon-lg justify-content-start mb-4">
+                                    <span class="position-absolute top-0 end-0 bottom-0 start-0 bg-danger bg-opacity-10 ms-n2 me-4"> </span>
+                                    <i class="fs-1 text-danger bi bi-command"></i>
+                                </div>
+                                <h5 class="mb-3">Marketing &amp; Reporting</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="py-5 px-4">
+                                <div class="position-relative icon-lg justify-content-start mb-4">
+                                    <span class="position-absolute top-0 end-0 bottom-0 start-0 bg-info-soft ms-n2 me-4"> </span>
+                                    <i class="fs-1 text-info bi bi-brush"></i>
+                                </div>
+                                <h5 class="mb-3">Graphics Design</h5>
+                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row gy-4 justify-content-between align-items-center">
+                        <div class="col-lg-6 text-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                        </div>
+                        <div class="col-lg-6 ps-xl-5 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h6 class="text-primary mb-3">Powerful Options</h6>
+                            <h4 class="h1 mb-4">We help to create visual strategies</h4>
+                            <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <div class="row gy-3 gy-lg-5 pt-4">
+                                <div class="col-sm-6">
+                                    <div class="d-flex bg-body shadow-sm p-3 rounded-3">
+                                        <div class="icon-lg bg-primary text-white rounded-circle">
+                                            <i class="bi bi-laptop"></i>
+                                        </div>
+                                        <div class="col ps-3">
+                                            <h5 class="h6 mb-1">Fully Responsive</h5>
+                                            <p class="m-0 small">Lorem ipsum dolor sit amet, consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex bg-body shadow-sm p-3 rounded-3">
+                                        <div class="icon-lg bg-warning text-white rounded-circle">
+                                            <i class="bi bi-globe"></i>
+                                        </div>
+                                        <div class="col ps-3">
+                                            <h5 class="h6 mb-1">Retina Ready</h5>
+                                            <p class="m-0 small">Lorem ipsum dolor sit amet, consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex bg-body shadow-sm p-3 rounded-3">
+                                        <div class="icon-lg bg-success text-white rounded-circle">
+                                            <i class="bi bi-eye"></i>
+                                        </div>
+                                        <div class="col ps-3">
+                                            <h5 class="h6 mb-1">Bootstrap Icon</h5>
+                                            <p class="m-0 small">Lorem ipsum dolor sit amet, consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex bg-body shadow-sm p-3 rounded-3">
+                                        <div class="icon-lg bg-info text-white rounded-circle">
+                                            <i class="bi bi-bootstrap"></i>
+                                        </div>
+                                        <div class="col ps-3">
+                                            <h5 class="h6 mb-1">Built With SASS</h5>
+                                            <p class="m-0 small">Lorem ipsum dolor sit amet, consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section pb-0">
+                <div class="container">
+                    <div class="row gy-4">
+                        <div class="col-lg-5 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h6 class="text-primary mb-3">Powerful Update</h6>
+                            <h3 class="h1 mb-3">Stay updated with automated data.</h3>
+                            <p class="fs-lg w-lg-90">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <ul class="list-unstyled pt-1">
+                                <li class="d-flex fs-lg text-mode fw-600 my-2"><i class="bi bi-check-circle text-primary"></i> <span class="ps-3"> Connect with Your Team Members</span></li>
+                                <li class="d-flex fs-lg text-mode fw-600 my-2"><i class="bi bi-check-circle text-primary"></i> <span class="ps-3"> Real-Time Collaboration</span></li>
+                                <li class="d-flex fs-lg text-mode fw-600 my-2"><i class="bi bi-check-circle text-primary"></i> <span class="ps-3"> Easy Video & Audio Calling</span></li>
+                            </ul>
+                            <div class="pt-3 pb-lg-8">
+                                <a class="btn btn-primary" href="#">Let's started</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading wow fadeInUp" data-wow-duration="0.5s">
+                        <div class="col-lg-7 col-xl-6 text-center">
+                            <h6 class="text-primary mb-3">Pricing</h6>
+                            <h3 class="h1">Choose a plan to start</h3>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+                    <div class="row gy-4 gy-lg-0">
+                        <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card hover-top">
+                                <div class="card-body">
+                                    <div class="position-relative pe-8">
+                                        <h6 class="text-muted">BASIC</h6>
+                                        <div class="pb-3">
+                                            <h3 class="display-4 mb-0"><span class="fs-4">$</span>19</h3>
+                                            <span>Per Month</span>
+                                        </div>
+                                        <div class="icon-lg rounded-circle bg-primary text-white position-absolute end-0 top-0">
+                                            <i class="bi bi-briefcase"></i>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <div class="pt-3 pt-lg-3">
+                                        <a class="btn btn-primary-soft" href="#">Let's started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card hover-top">
+                                <div class="card-body">
+                                    <div class="position-relative pe-8">
+                                        <h6 class="text-muted">BASIC</h6>
+                                        <div class="pb-3">
+                                            <h3 class="display-4 mb-0"><span class="fs-4">$</span>19</h3>
+                                            <span>Per Month</span>
+                                        </div>
+                                        <div class="icon-lg rounded-circle bg-warning text-white position-absolute end-0 top-0">
+                                            <i class="bi bi-globe"></i>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <div class="pt-3 pt-lg-3">
+                                        <a class="btn btn-primary-soft" href="#">Let's started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                            <div class="card hover-top">
+                                <div class="card-body">
+                                    <div class="position-relative pe-8">
+                                        <h6 class="text-muted">BASIC</h6>
+                                        <div class="pb-3">
+                                            <h3 class="display-4 mb-0"><span class="fs-4">$</span>19</h3>
+                                            <span>Per Month</span>
+                                        </div>
+                                        <div class="icon-lg rounded-circle bg-success text-white position-absolute end-0 top-0">
+                                            <i class="bi bi-bootstrap"></i>
+                                        </div>
+                                    </div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <div class="pt-3 pt-lg-3">
+                                        <a class="btn btn-primary-soft" href="#">Let's started</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-dark effect-section">
+                <!-- @s BG Effect -->
+                <div class="pe-none position-absolute start-0 top-0 mx-auto mt-n5 ms-n5 mt-lg-n10 ms-lg-n10 w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 200px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 192" fill="none" class="text-warning w-100">
+                        <path d="M49.234 40.7275C50.7799 37.5066 53.9267 35.3552 57.489 35.0836L119.332 30.3681C122.895 30.0965 126.331 31.746 128.348 34.6952L163.353 85.8953C165.369 88.8446 165.659 92.6455 164.113 95.8664L137.275 151.782C135.729 155.003 132.583 157.154 129.02 157.426L67.177 162.141C63.6147 162.413 60.178 160.763 58.1617 157.814L23.1563 106.614C21.1399 103.665 20.8501 99.8639 22.396 96.6431L49.234 40.7275Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <div class="pe-none position-absolute end-0 bottom-0 me-n4 mb-n4 me-lg-n8 mb-lg-n8 w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 150px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 192" fill="none" class="text-warning">
+                        <path d="M49.234 40.7275C50.7799 37.5066 53.9267 35.3552 57.489 35.0836L119.332 30.3681C122.895 30.0965 126.331 31.746 128.348 34.6952L163.353 85.8953C165.369 88.8446 165.659 92.6455 164.113 95.8664L137.275 151.782C135.729 155.003 132.583 157.154 129.02 157.426L67.177 162.141C63.6147 162.413 60.178 160.763 58.1617 157.814L23.1563 106.614C21.1399 103.665 20.8501 99.8639 22.396 96.6431L49.234 40.7275Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <img class="position-absolute bottom-0 start-0 pe-none w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 250px;" src="../assets/img/effect/polygon-03.png" title="" alt="">
+                <img class="position-absolute top-0 end-0 pe-none w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 150px;" src="../assets/img/effect/polygon-04.png" title="" alt="">
+                <!-- @E BG Effect -->
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h1 class="display-4 text-white mb-3">We help to create visual strategies.</h1>
+                            <p class="fs-lg m-0 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            <div class="pt-5">
+                                <a class="btn btn-lg btn-primary mb-2" href="#">Get started now - it's free!</a>
+                                <p class="m-0 pt-2 text-white small">No credit card needed, cancel anytime</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container pb-10">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h6 class="text-primary mb-3">What We provide</h6>
+                            <h3 class="h2 mb-0">See everything what we can do!</h3>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class=" col-sm-6 col-lg-3  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card shadow-lg hover-top">
+                                <div class="card-body text-center py-4">
+                                    <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-laptop"></i>
+                                    </div>
+                                    <h5 class="h6 mb-3">Business Stratagy</h5>
+                                    <a href="#" class="link-effect">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-6 col-lg-3  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card shadow-lg hover-top">
+                                <div class="card-body text-center py-4">
+                                    <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-globe"></i>
+                                    </div>
+                                    <h5 class="h6 mb-3">Website Development</h5>
+                                    <a href="#" class="link-effect">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-6 col-lg-3  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card shadow-lg hover-top">
+                                <div class="card-body text-center py-4">
+                                    <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-eye"></i>
+                                    </div>
+                                    <h5 class="h6 mb-3">Marketing &amp; Reporting</h5>
+                                    <a href="#" class="link-effect">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-6 col-lg-3  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card shadow-lg hover-top">
+                                <div class="card-body text-center py-4">
+                                    <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-bootstrap"></i>
+                                    </div>
+                                    <h5 class="h6 mb-3">Marketing &amp; Reporting</h5>
+                                    <a href="#" class="link-effect">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card shadow-lg hover-top">
+                                <div class="card-body text-center py-4">
+                                    <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-window"></i>
+                                    </div>
+                                    <h5 class="h6 mb-3">Business Stratagy</h5>
+                                    <a href="#" class="link-effect">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card shadow-lg hover-top">
+                                <div class="card-body text-center py-4">
+                                    <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-columns"></i>
+                                    </div>
+                                    <h5 class="h6 mb-3">Website Development</h5>
+                                    <a href="#" class="link-effect">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card shadow-lg hover-top">
+                                <div class="card-body text-center py-4">
+                                    <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-code-square"></i>
+                                    </div>
+                                    <h5 class="h6 mb-3">Marketing &amp; Reporting</h5>
+                                    <a href="#" class="link-effect">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card shadow-lg hover-top">
+                                <div class="card-body text-center py-4">
+                                    <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-command"></i>
+                                    </div>
+                                    <h5 class="h6 mb-3">Marketing &amp; Reporting</h5>
+                                    <a href="#" class="link-effect">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section pt-0">
+                <div class="container">
+                    <div class="row justify-content-center mt-n12">
+                        <div class="col-10 col-sm-7 col-md-5 col-lg-4  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div>
+                                <img src="../assets/img/effect/free-1.svg" title="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center pt-7  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                        <h3 class="h1 pb-4">Change the way you<br /> work with clients forever.<br /> You’ll thank us later.</h3>
+                        <a class="btn btn-lg btn-primary" href="#">Get started now - it's free!</a>
+                        <p class="m-0 pt-2 small">No credit card needed, cancel anytime</p>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_06.html', {
+        "path": ".",
+        "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

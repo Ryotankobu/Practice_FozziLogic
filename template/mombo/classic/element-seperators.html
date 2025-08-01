@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Separators",
+            })
+             <!-- Section -->
+            <div class="section border-bottom">
+                <div class="container">
+                    <h3 class="text-center mb-5">Border Additive</h3>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border">Border All</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border-top"> Border Top</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border-end">Border Right </span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border-bottom">Border Bottom</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border-start">Border Left</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End section -->
+            <!-- Section -->
+            <div class="section border-bottom">
+                <div class="container">
+                    <h3 class="text-center mb-5">Border color</h3>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-primary">Border primary</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-secondary"> Border secondary</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-success">Border success </span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-danger">Border danger</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-warning">Border warning</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-info">Border info</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-light">Border light</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-dark">Border dark</span>
+                        <span style="width: 15%; height: 150px;" class=" m-3 p-5 bg-body border border-white">Border white</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End section -->
+            <!-- Section -->
+            <div class="section border-bottom">
+                <div class="container">
+                    <h3 class="text-center mb-5">Border Width</h3>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <span style="width: 15%; height: 150px;" class="border border-1 m-2 p-4">Border All</span>
+                        <span style="width: 15%; height: 150px;" class="border border-2 m-2 p-4"> Border Top</span>
+                        <span style="width: 15%; height: 150px;" class="border border-3 m-2 p-4">Border Right </span>
+                        <span style="width: 15%; height: 150px;" class="border border-4 m-2 p-4">Border Bottom</span>
+                        <span style="width: 15%; height: 150px;" class="border border-5 m-2 p-4">Border Left</span>
+                    </div>
+                </div>
+            </div>
+            <!-- End section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

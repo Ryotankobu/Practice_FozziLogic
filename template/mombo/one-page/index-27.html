@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+    "path": "",
+    "FontsURL":
+    "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+    "CSSName": "style",
+    })
+    <link rel="stylesheet" type="text/css" href="../assets/css/scroll.css">
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header-main header-classic headroom navbar-light fixed-top bg-transparent shadow-none">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container bg-body px-lg-4 py-3 rounded-3 shadow-lg mt-lg-1">
+                    <!-- Logo -->
+                    <a class="navbar-brand header-navbar-brand" href="../index.html">
+                        <img class="logo-dark" src="../assets/img/logo.svg" title="" alt="">
+                        <img class="logo-light" src="../assets/img/logo-light.svg" title="" alt="">
+                    </a>
+                    <!-- Logo -->
+                    
+                    <!-- Menu -->
+                    <div class="collapse navbar-collapse one-page-nav" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="0" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="1" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="2" class="nav-link">Feature</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="3" class="nav-link">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="4" class="nav-link">Price</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="5" class="nav-link">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Menu -->
+                    <div class="nav align-items-center">
+                        <div class="nav-item dropdown me-3">
+                            <button class="dropdown-toggle btn theme-switch-01" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+                                <span class="bi theme-icon-active">
+                                    <i class="bi-circle-half"></i>
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end  shadow" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-sun-fill"></i>
+                                        </span>
+                                        Light
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-moon-stars-fill"></i>
+                                        </span>
+                                        Dark
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-circle-half"></i>
+                                        </span>
+                                        Auto
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-secondary mb-0 ms-2 text-nowrap d-none d-lg-flex">Login</a>
+                        <!-- Mobile Toggle -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                        </button>
+                        <!-- End Mobile Toggle -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Section -->
+            <section data-scroll-index="0" class="overflow-hidden bg-primary-gradient">
+                <div class="container position-relative">
+                    <div class="row min-vh-100">
+                        <div class="col-lg-6 pe-xl-12 pt-12 pb-4 py-lg-12 align-self-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="d-inline-block text-primary h6 mb-4">Business Stratagy</div>
+                            <h1 class="display-4 lh-1 mb-3 mb-lg-5">We gives you the tools to <span class="typed text-primary" data-elements="manage, optimize, grow"></span></h1>
+                            <p class="fs-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <div class="pt-2">
+                                <a class="btn btn-primary" href="#">Purchese Now</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 position-relative">
+                            <div class="mask-50vw right bg-cover bg-center min-vh-50 rounded-3" style="background-image: url(../assets/img/home-banner/home-banner.jpg);"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section data-scroll-index="1" class="section bg-light-gradient-reverse">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 position-relative counter wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <img class="rounded-3" src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                            <div class="position-absolute bg-warning top-0 end-0 m-auto rounded-circle d-flex align-items-center justify-content-center" style="width: 180px; height: 180px;">
+                                <div class="text-center text-white">
+                                    <h6 class="count h2 text-white m-0 after-plus" data-to="25" data-speed="25">25</h6>
+                                    <p class="m-0">Year Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 ps-xl-10">
+                            <div class="row g-3">
+                                <div class="col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                                    <div class="card hover-top">
+                                        <div class="card-body">
+                                            <div class="icon-xl bg-primary text-white rounded-circle p-3 mb-4">
+                                                <i class="bi bi-briefcase"></i>
+                                            </div>
+                                            <h6 class="mb-2">Business Stratagy</h6>
+                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                                    <div class="card hover-top">
+                                        <div class="card-body">
+                                            <div class="icon-xl bg-primary text-white rounded-circle p-3 mb-4">
+                                                <i class="bi bi-columns"></i>
+                                            </div>
+                                            <h6 class="mb-2">Website Development</h6>
+                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                                    <div class="card hover-top">
+                                        <div class="card-body">
+                                            <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                                <i class="bi bi-command"></i>
+                                            </div>
+                                            <h6 class="mb-2">Marketing & Reporting</h6>
+                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                                    <div class="card hover-top">
+                                        <div class="card-body">
+                                            <div class="icon-xl bg-primary text-white rounded-circle mb-4">
+                                                <i class="bi bi-brush"></i>
+                                            </div>
+                                            <h6 class="mb-2">Business Stratagy</h6>
+                                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section data-scroll-index="2" class="section">
+                <div class="container">
+                    <div class="row justify-content-center section-heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                        <div class="col-lg-8 text-center">
+                            <h3 class="h1 mb-3">Advanced Solutions</h3>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon-xl bg-primary bg-opacity-10 text-primary rounded-3">
+                                        <i class="fs-2 lh-1 bi bi-briefcase"></i>
+                                    </div>
+                                    <div class="pt-4">
+                                        <h5>Web Development</h5>
+                                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon-xl bg-primary bg-opacity-10 text-primary rounded-3">
+                                        <i class="fs-2 lh-1 bi-columns"></i>
+                                    </div>
+                                    <div class="pt-4">
+                                        <h5>Graphics Design</h5>
+                                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon-xl bg-primary bg-opacity-10 text-primary rounded-3">
+                                        <i class="fs-2 lh-1 bi bi-phone"></i>
+                                    </div>
+                                    <div class="pt-4">
+                                        <h5>Mobile Friendly</h5>
+                                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon-xl bg-primary bg-opacity-10 text-primary rounded-3">
+                                        <i class="fs-2 lh-1 bi bi-emoji-dizzy"></i>
+                                    </div>
+                                    <div class="pt-4">
+                                        <h5>Logo & Identity</h5>
+                                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon-xl bg-primary bg-opacity-10 text-primary rounded-3">
+                                        <i class="fs-2 lh-1 bi bi-facebook"></i>
+                                    </div>
+                                    <div class="pt-4">
+                                        <h5>Social Marketing</h5>
+                                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="icon-xl bg-primary bg-opacity-10 text-primary rounded-3">
+                                        <i class="fs-2 lh-1 bi bi-layers"></i>
+                                    </div>
+                                    <div class="pt-4">
+                                        <h5>Multiple Layouts</h5>
+                                        <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="bg-gray-100 overflow-hidden">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 section pe-xl-12 ps-lg-5 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h6 class="text-primary mb-3">Powerful Options</h6>
+                            <h4 class="h1 mb-3">We help to create visual strategies</h4>
+                            <p class="pb-3 fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="icon-md bg-primary text-white rounded-circle">
+                                    <i class="fs-5 bi bi-briefcase"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5 class="fs-lg fw-600 m-0">Business Stratagy</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3 align-items-center">
+                                <div class="icon-md bg-primary text-white rounded-circle">
+                                    <i class="fs-5 bi bi-columns"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5 class="fs-lg fw-600 m-0">Website Development</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <div class="icon-md bg-primary text-white rounded-circle">
+                                    <i class="fs-5 bi bi-command"></i>
+                                </div>
+                                <div class="col ps-3">
+                                    <h5 class="fs-lg fw-600 m-0">Marketing & Reporting</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 position-relative">
+                            <div class="mask-50vw right bg-cover bg-center min-vh-50 z-1" style="background-image: url(../assets/img/feature/feature-01.jpg);"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section data-scroll-index="3" class="section">
+                <div class="container">
+                    <div class="row justify-content-center section-heading wow fadeInUp" data-wow-duration="0.5s">
+                        <div class="col-lg-6 text-center">
+                            <h3 class="h1 mb-3">Our qualified team</h3>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 24,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 3
+                            },
+                            "1024": {
+                              "slidesPerView": 4
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="../assets/img/team/team-1.jpg" title="" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <span class="text-muted small">UI engineer</span>
+                                        <h6 class="mb-2">Nancy Drew</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <div class="nav">
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="../assets/img/team/team-1.jpg" title="" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <span class="text-muted small">UI engineer</span>
+                                        <h6 class="mb-2">Nancy Drew</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <div class="nav">
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="../assets/img/team/team-1.jpg" title="" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <span class="text-muted small">UI engineer</span>
+                                        <h6 class="mb-2">Nancy Drew</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <div class="nav">
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="../assets/img/team/team-1.jpg" title="" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <span class="text-muted small">UI engineer</span>
+                                        <h6 class="mb-2">Nancy Drew</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <div class="nav">
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img src="../assets/img/team/team-1.jpg" title="" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <span class="text-muted small">UI engineer</span>
+                                        <h6 class="mb-2">Nancy Drew</h6>
+                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <div class="nav">
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                            <a class="icon-sm hover-top rounded-circle text-white bg-dark me-2" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section data-scroll-index="4" class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h3 class="h1 mb-3">Simple, Straight Pricing</h3>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card hover-top">
+                                <img class="card-img-top" src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                                <div class="card-body">
+                                    <p class="samll mb-0 mt-n5 mb-5">
+                                        <span class="text-white bg-dark px-3 py-2 rounded-pill">Personal</span>
+                                    </p>
+                                    <div class="d-flex align-items-end mb-4">
+                                        <h4 class="display-5 mb-0 lh-1">$49.99</h4>
+                                        <span class="small ps-2">/ Monthly</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4 text-start">
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <a class="btn btn-primary w-100" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card hover-top">
+                                <img class="card-img-top" src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                                <div class="card-body">
+                                    <p class="samll mb-0 mt-n5 mb-5">
+                                        <span class="text-white bg-dark px-3 py-2 rounded-pill">Personal</span>
+                                    </p>
+                                    <div class="d-flex align-items-end mb-4">
+                                        <h4 class="display-5 mb-0 lh-1">$49.99</h4>
+                                        <span class="small ps-2">/ Monthly</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4 text-start">
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <a class="btn btn-primary w-100" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                            <div class="card hover-top">
+                                <img class="card-img-top" src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                                <div class="card-body">
+                                    <p class="samll mb-0 mt-n5 mb-5">
+                                        <span class="text-white bg-dark px-3 py-2 rounded-pill">Personal</span>
+                                    </p>
+                                    <div class="d-flex align-items-end mb-4">
+                                        <h4 class="display-5 mb-0 lh-1">$49.99</h4>
+                                        <span class="small ps-2">/ Monthly</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-4 text-start">
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi bi-patch-check-fill me-2 text-success"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <a class="btn btn-primary w-100" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h3 class="h1 mb-3">What client says?</h3>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 24,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 1
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 2
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="d-flex rounded-3 overflow-hidden shadow border">
+                                    <div class="col-4">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="" class="w-100 h-100 object-fit">
+                                    </div>
+                                    <div class="col-8 p-4">
+                                        <h6 class="m-0">Shoko Mugikura</h6>
+                                        <span class="small">Graphic Designer</span>
+                                        <p class="m-0 pt-3 fs-lg">I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-flex rounded-3 overflow-hidden shadow border">
+                                    <div class="col-4">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="" class="w-100 h-100 object-fit">
+                                    </div>
+                                    <div class="col-8 p-4">
+                                        <h6 class="m-0">Shoko Mugikura</h6>
+                                        <span class="small">Graphic Designer</span>
+                                        <p class="m-0 pt-3 fs-lg">I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-flex rounded-3 overflow-hidden shadow border">
+                                    <div class="col-4">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="" class="w-100 h-100 object-fit">
+                                    </div>
+                                    <div class="col-8 p-4">
+                                        <h6 class="m-0">Shoko Mugikura</h6>
+                                        <span class="small">Graphic Designer</span>
+                                        <p class="m-0 pt-3 fs-lg">I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section data-scroll-index="5" class="section bg-gray-100">
+                <div class="container">
+                    <div class="row gy-4 align-items-center">
+                        <div class="col-md-6 pe-xl-12 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h3 class="h1 mb-3">Let’s subscribe our newsletter</h3>
+                            <p class="fs-lg pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="card">
+                                <div class="card-body p-5">
+                                    <form>
+                                        <div class="mb-4">
+                                            <label class="form-label">Your Name</label>
+                                            <input type="text" placeholder="Name" class="form-control" name="Name">
+                                        </div>
+                                        <div class="mb-4">
+                                            <label class="form-label">Your Email</label>
+                                            <input type="text" placeholder="Email" class="form-control" name="Email">
+                                        </div>
+                                        <button class="btn btn-primary w-100">Subscribe Now</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 position-relative wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img class="rounded-3" src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_11.html', {
+        "path": ".",
+        "imgPath": "../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

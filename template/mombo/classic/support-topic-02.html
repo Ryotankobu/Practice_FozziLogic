@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <div class="header-height-bar"></div>
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top header-height bg-body border-bottom",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Section -->
+            <section class="section bg-gray-100  border-bottom">
+                <div class="container">
+                    <div class="row justify-content-center pb-8">
+                        <div class="col-lg-8 col-xl-7 text-center">
+                            <h2 class="h1 mb-3">How can we help?</h2>
+                            <p class="fs-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                            <form class="d-flex flex-column flex-md-row mt-4">
+                                <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="you@yoursite.com">
+                                <button class="btn btn-primary flex-shrink-0" type="submit">Get Started</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <div class="section pt-0">
+                <div class="container position-relative bg-body z-index-1">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9">
+                            <article class="card mt-n10  border shadow">
+                                <div class="card-header px-5 py-3 border-bottom">
+                                    <h1 class="h4 mb-1">Where does it come from?</h1>
+                                    <small><i class="bi bi-clock me-2"></i> Last Update 13th August, 2020</small>
+                                </div>
+                                <div class="p-5 card-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                                    <blockquote>
+                                        <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        <p class="blockquote-footer m-0">Someone famous in <cite title="Source Title">Dick Grayson</cite></p>
+                                    </blockquote>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                                    <h5>What are my payment options?</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                                    <figure class="figure lightbox-gallery mb-4">
+                                        <a href="../assets/img/blog/blog-1.jpg" class="gallery-link">
+                                            <img title="" alt="" src="../assets/img/blog/blog-1.jpg" class="img-fluid rounded">
+                                        </a>
+                                        <figcaption class="mt-3 text-muted text-sm text-center">Figure: Type here your description</figcaption>
+                                    </figure>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="d-flex py-1"><i class="bi bi-check-circle-fill text-primary me-2"></i> The standard Lorem Ipsum passage, used since the 1500s</li>
+                                        <li class="d-flex py-1"><i class="bi bi-check-circle-fill text-primary me-2"></i> Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</li>
+                                        <li class="d-flex py-1"><i class="bi bi-check-circle-fill text-primary me-2"></i> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</li>
+                                        <li class="d-flex py-1"><i class="bi bi-check-circle-fill text-primary me-2"></i> On the other hand, we denounce with righteous indignation</li>
+                                    </ul>
+                                    <h5>Where does it come from?</h5>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                                    <div class="border-top pt-4 mt-3">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-6">
+                                                <div class="d-flex align-items-center">
+                                                    <img class="avatar rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                                    <div class="col ps-3">
+                                                        <h6 class="mb-0">Dick Grayson</h6>
+                                                        <span class="small">Published on April 25, 2020</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="nav justify-content-end">
+                                                    <a class="icon-sm rounded-circle text-white bg-success ms-2" href="#">
+                                                        <i class="bi-hand-thumbs-up"></i>
+                                                    </a>
+                                                    <a class="icon-sm rounded-circle text-white bg-danger ms-2" href="#">
+                                                        <i class="bi-hand-thumbs-down"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 col-xl-7 text-center">
+                            <h2 class="h1">Still have a questions?</h2>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-6 col-lg-5 my-3">
+                            <div class="card shadow hover-top">
+                                <div class="card-body text-center">
+                                    <div class="icon-lg bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-phone"></i>
+                                    </div>
+                                    <h5>+01 963 965 3265</h5>
+                                    <p class="m-0">Do not hesitate to contact us</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-5 my-3">
+                            <div class="card shadow hover-top">
+                                <div class="card-body text-center">
+                                    <div class="icon-lg bg-primary text-white rounded-circle mb-4">
+                                        <i class="bi bi-envelope"></i>
+                                    </div>
+                                    <h5>support@yourdomain.com</h5>
+                                    <p class="m-0">We will come back to you in a maximum of 24 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

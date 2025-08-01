@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Blockquote",
+                })
+                <!-- Section -->
+                <section class="section">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <blockquote class="border-start border-3 border-primary ps-4">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <h6 class="m-0">- Dick Graysone</h6>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Section -->
+                <!-- Section -->
+                <section class="section bg-dark">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="p-xl-8 p-lg-6 p-4 bg-primary text-white d-flex">
+                                    <div class="only-icon only-icon-lg">
+                                        <i class="bi-quote"></i>
+                                    </div>
+                                    <div class="col ps-4">
+                                        <p class="fs-lg white-color">Raino is a responsive, professional, and multipurpose SaaS(software-as-a-service), Software, Startup and WebApp Bootstrap 5 landing template. Raino is a powerful flexible tool, which suits best for any kind of landing pages.</p>
+                                        <h6 class="m-0 text-white">- Dick Graysone</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Section -->
+                <!-- Section -->
+                <section class="section bg-gray-100">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-xl-6">
+                                <div class="shadow-lg bg-body p-xl-8 p-lg-6 p-4 text-center">
+                                    <div class="only-icon only-icon-lg mb-4 text-primary">
+                                        <i class="bi-quote"></i>
+                                    </div>
+                                    <div class="fs-lg mb-4">Raino is a responsive, professional, and multipurpose SaaS(software-as-a-service), Software, Startup and WebApp Bootstrap 5 landing template. Raino is a powerful flexible tool, which suits best for any kind of landing pages.</div>
+                                    <h6 class="m-0">- Dick Graysone</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

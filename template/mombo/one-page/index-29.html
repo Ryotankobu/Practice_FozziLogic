@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+    "path": "",
+    "FontsURL":
+    "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+    "CSSName": "style",
+    })
+    <link rel="stylesheet" type="text/css" href="../assets/css/scroll.css">
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header-main header-classic headroom navbar-light fixed-top navbar-transparent">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container position-relative">
+                    <!-- Logo -->
+                    <a class="navbar-brand header-navbar-brand" href="../index.html">
+                        <img class="logo-dark" src="../assets/img/logo.svg" title="" alt="">
+                        <img class="logo-light" src="../assets/img/logo-light.svg" title="" alt="">
+                    </a>
+                    <!-- Logo -->
+                    
+                    <!-- Menu -->
+                    <div class="collapse navbar-collapse one-page-nav" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="0" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="1" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="2" class="nav-link">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="3" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Menu -->
+                    <div class="nav align-items-center">
+                        <div class="nav-item dropdown me-3">
+                            <button class="dropdown-toggle btn theme-switch-01" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+                                <span class="bi theme-icon-active">
+                                    <i class="bi-circle-half"></i>
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end  shadow" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-sun-fill"></i>
+                                        </span>
+                                        Light
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-moon-stars-fill"></i>
+                                        </span>
+                                        Dark
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-circle-half"></i>
+                                        </span>
+                                        Auto
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-secondary mb-0 ms-2 text-nowrap d-none d-lg-flex">Login</a>
+                        <!-- Mobile Toggle -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                        </button>
+                        <!-- End Mobile Toggle -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Section -->
+            <div data-scroll-index="0" class="swiper swiper-container" data-swiper-options='{
+                    "slidesPerView": 1,
+                    "spaceBetween": 0,
+                    "loop": true,
+                    "navigation": {
+                    "nextEl": ".swiper-next-01",
+                    "prevEl": ".swiper-prev-01"
+                    },
+                    "autoplay": {
+                    "delay": 5000,
+                    "disableOnInteraction": false
+                    }
+                }'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg-cover bg-no-repeat effect-section" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                            <div class="mask bg-black opacity-50"></div>
+                            <div class="container position-relative px-5 px-lg-3">
+                                <div class="row min-vh-100 align-items-center py-12 px-ms-7 px-xl-0">
+                                    <div class="col-lg-7 col-xl-6 text-center text-lg-start pt-8">
+                                        <h1 class="display-4 lh-sm text-white mb-4">Build customer relationships through conversation</h1>
+                                        <div class="w-lg-90">
+                                            <p class="fs-lg text-white text-opacity-65">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        </div>
+                                        <div class="pt-3">
+                                            <a class="btn btn-light me-3" href="#">Let's started</a>
+                                            <a class="btn btn-outline-white" href="#">Our projects</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-cover bg-no-repeat effect-section" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                            <div class="mask bg-black opacity-50"></div>
+                            <div class="container position-relative px-5 px-lg-3">
+                                <div class="row min-vh-100 align-items-center py-12 px-ms-7 px-xl-0">
+                                    <div class="col-lg-7 col-xl-6 text-center text-lg-start pt-8">
+                                        <h1 class="display-4 lh-sm text-white mb-4">Build customer relationships through conversation</h1>
+                                        <div class="w-lg-90">
+                                            <p class="fs-lg text-white text-opacity-65">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                        </div>
+                                        <div class="pt-3">
+                                            <a class="btn btn-light me-3" href="#">Let's started</a>
+                                            <a class="btn btn-outline-white" href="#">Our projects</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-arrow-style-02 me-lg-3 swiper-next swiper-next-01"><i class="bi bi-chevron-right"></i> </div>
+                <div class="swiper-arrow-style-02 ms-lg-3 swiper-prev swiper-prev-01"><i class="bi bi-chevron-left"></i></div>
+            </div>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="border-bottom">
+              <div class="container">
+                  <div class="row separated">
+                      <div class="col-md-4 py-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="d-flex">
+                              <div class="icon-md bg-primary bg-opacity-10 text-primary rounded-3">
+                                  <span class="h6 m-0 text-primary">01</span>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>Business Stratagy</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 py-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="d-flex">
+                              <div class="icon-md bg-primary bg-opacity-10 text-primary rounded-3">
+                                  <span class="h6 m-0 text-primary">01</span>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>Business Stratagy</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 py-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="d-flex">
+                              <div class="icon-md bg-primary bg-opacity-10 text-primary rounded-3">
+                                  <span class="h6 m-0 text-primary">01</span>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>Business Stratagy</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section data-scroll-index="1" class="section">
+              <div class="container">
+                  <div class="row align-items-center gy-5">
+                      <div class="col-lg-4  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <h6 class="text-primary mb-4">What We provide</h6>
+                          <h3 class="h2 mb-4">Working to build a better web design</h3>
+                          <p class="fs-lg pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <a class="btn btn-primary" href="#">Get Started</a>
+                      </div>
+                      <div class="col-md-6 col-lg-4 position-relative  wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <img class="rounded-3" src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                          <a href="https://www.youtube.com/watch?v=XkagRCnJyV8" class="video-btn icon-xl after-shadow text-white rounded-circle bg-white position-absolute top-0 bottom-0 end-0 start-0 m-auto"><i class="text-dark bi bi-play fs-3"></i></a>
+                      </div>
+                      <div class="col-md-6 col-lg-4 ps-lg-5 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="d-flex mb-4">
+                              <div class="icon-sm rounded-circle bg-primary text-white">
+                                  <i class="bi bi-pencil"></i>
+                              </div>
+                              <div class="col ps-2">
+                                  <h6 class="mb-1">Creative Concept</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                              </div>
+                          </div>
+                          <div class="d-flex mb-4">
+                              <div class="icon-sm rounded-circle bg-primary text-white">
+                                  <i class="bi bi-box-seam"></i>
+                              </div>
+                              <div class="col ps-2">
+                                  <h6 class="mb-1">Production</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                              </div>
+                          </div>
+                          <div class="d-flex mb-4">
+                              <div class="icon-sm rounded-circle bg-primary text-white">
+                                  <i class="bi bi-emoji-smile"></i>
+                              </div>
+                              <div class="col ps-2">
+                                  <h6 class="mb-1">Happy Client</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="section bg-gray-100">
+              <div class="container">
+                  <div class="row justify-content-center section-heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                      <div class="col-lg-8 col-xl-7 text-center">
+                          <h6 class="text-primary mb-2">How We Work</h6>
+                          <h3 class="h1 mb-3">Working to build a better</h3>
+                          <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+                  <div class="row gy-4">
+                      <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="card shadow hover-scale-box">
+                              <div class="card-body min-h-350px p-5">
+                                  <div class="icon-xl bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-laptop"></i>
+                                  </div>
+                                  <h5>Fully Responsive.</h5>
+                              </div>
+                              <div class="card-footer border-0 px-5">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="card shadow hover-scale-box">
+                              <div class="card-body min-h-350px p-5">
+                                  <div class="icon-xl bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-globe"></i>
+                                  </div>
+                                  <h5>Browser Compatibility.</h5>
+                              </div>
+                              <div class="card-footer border-0 px-5">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="card shadow hover-scale-box">
+                              <div class="card-body min-h-350px p-5">
+                                  <div class="icon-xl bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-eye"></i>
+                                  </div>
+                                  <h5>Retina Ready.</h5>
+                              </div>
+                              <div class="card-footer border-0 px-5">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="card shadow hover-scale-box">
+                              <div class="card-body min-h-350px p-5">
+                                  <div class="icon-xl bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-bootstrap"></i>
+                                  </div>
+                                  <h5>Bootstrap Icon.</h5>
+                              </div>
+                              <div class="card-footer border-0 px-5">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="card shadow hover-scale-box">
+                              <div class="card-body min-h-350px p-5">
+                                  <div class="icon-xl bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-window"></i>
+                                  </div>
+                                  <h5>Built With SASS.</h5>
+                              </div>
+                              <div class="card-footer border-0 px-5">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="card shadow hover-scale-box">
+                              <div class="card-body min-h-350px p-5">
+                                  <div class="icon-xl bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-code-square"></i>
+                                  </div>
+                                  <h5>W3c Valid Code.</h5>
+                              </div>
+                              <div class="card-footer border-0 px-5">
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section data-scroll-index="2" class="section">
+              <div class="container">
+                  <div class="row justify-content-center section-heading">
+                      <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <h6 class="text-primary mb-2">How We Work</h6>
+                          <h3 class="h1 mb-3">Our Latest Projects</h3>
+                          <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+                  <div class="portfolio-content row gy-5 lightbox-gallery wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                      <div class="col-sm-6 col-lg-4 grid-item">
+                          <div class="hover-scale">
+                              <div class="hover-scale-in position-relative rounded-3">
+                                  <img src="../assets/img/project/project-1.jpg" title="" alt="">
+                                  <a class="icon-md bg-white text-dark gallery-link position-absolute top-0 end-0 mt-3 me-3 rounded-3" href="../assets/img/project/project-1.jpg">
+                                      <i class="bi bi-plus fs-4 lh-1"></i>
+                                  </a>
+                              </div>
+                              <div class="pt-3">
+                                  <h6><a href="#" class="link-effect text-reset">Printed Mobile Cover</a></h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              </div>
+                          </div>
+                      </div> <!-- grid item -->
+                      <div class="col-sm-6 col-lg-4 grid-item">
+                          <div class="hover-scale">
+                              <div class="hover-scale-in position-relative rounded-3">
+                                  <img src="../assets/img/project/project-1.jpg" title="" alt="">
+                                  <a class="icon-md bg-white text-dark gallery-link position-absolute top-0 end-0 mt-3 me-3 rounded-3" href="../assets/img/project/project-1.jpg">
+                                      <i class="bi bi-plus fs-4 lh-1"></i>
+                                  </a>
+                              </div>
+                              <div class="pt-3">
+                                  <h6><a href="#" class="link-effect text-reset">Printed Mobile Cover</a></h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              </div>
+                          </div>
+                      </div> <!-- grid item -->
+                      <div class="col-sm-6 col-lg-4 grid-item">
+                          <div class="hover-scale">
+                              <div class="hover-scale-in position-relative rounded-3">
+                                  <img src="../assets/img/project/project-1.jpg" title="" alt="">
+                                  <a class="icon-md bg-white text-dark gallery-link position-absolute top-0 end-0 mt-3 me-3 rounded-3" href="../assets/img/project/project-1.jpg">
+                                      <i class="bi bi-plus fs-4 lh-1"></i>
+                                  </a>
+                              </div>
+                              <div class="pt-3">
+                                  <h6><a href="#" class="link-effect text-reset">Printed Mobile Cover</a></h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              </div>
+                          </div>
+                      </div> <!-- grid item -->
+                      <div class="col-sm-6 col-lg-4 grid-item">
+                          <div class="hover-scale">
+                              <div class="hover-scale-in position-relative rounded-3">
+                                  <img src="../assets/img/project/project-1.jpg" title="" alt="">
+                                  <a class="icon-md bg-white text-dark gallery-link position-absolute top-0 end-0 mt-3 me-3 rounded-3" href="../assets/img/project/project-1.jpg">
+                                      <i class="bi bi-plus fs-4 lh-1"></i>
+                                  </a>
+                              </div>
+                              <div class="pt-3">
+                                  <h6><a href="#" class="link-effect text-reset">Printed Mobile Cover</a></h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              </div>
+                          </div>
+                      </div> <!-- grid item -->
+                      <div class="col-sm-6 col-lg-4 grid-item">
+                          <div class="hover-scale">
+                              <div class="hover-scale-in position-relative rounded-3">
+                                  <img src="../assets/img/project/project-1.jpg" title="" alt="">
+                                  <a class="icon-md bg-white text-dark gallery-link position-absolute top-0 end-0 mt-3 me-3 rounded-3" href="../assets/img/project/project-1.jpg">
+                                      <i class="bi bi-plus fs-4 lh-1"></i>
+                                  </a>
+                              </div>
+                              <div class="pt-3">
+                                  <h6><a href="#" class="link-effect text-reset">Printed Mobile Cover</a></h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              </div>
+                          </div>
+                      </div> <!-- grid item -->
+                      <div class="col-sm-6 col-lg-4 grid-item">
+                          <div class="hover-scale">
+                              <div class="hover-scale-in position-relative rounded-3">
+                                  <img src="../assets/img/project/project-1.jpg" title="" alt="">
+                                  <a class="icon-md bg-white text-dark gallery-link position-absolute top-0 end-0 mt-3 me-3 rounded-3" href="../assets/img/project/project-1.jpg">
+                                      <i class="bi bi-plus fs-4 lh-1"></i>
+                                  </a>
+                              </div>
+                              <div class="pt-3">
+                                  <h6><a href="#" class="link-effect text-reset">Printed Mobile Cover</a></h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                              </div>
+                          </div>
+                      </div> <!-- grid item -->
+                  </div> <!-- portfolio-content -->
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="section bg-gray-100">
+              <div class="container">
+                  <div class="row justify-content-center section-heading">
+                      <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <h6 class="text-primary mb-2">Testimonials</h6>
+                          <h3 class="h1 mb-3">Our Satisfied Clients.</h3>
+                          <p class="fs-lg m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+                  <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                        "slidesPerView": 1,
+                        "spaceBetween": 24,
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "clickable": true
+                        },
+                        "breakpoints": {
+                          "650": {
+                            "slidesPerView": 2
+                          },
+                          "991": {
+                            "slidesPerView": 2
+                          }
+                        }
+                      }'>
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <div class="card mb-4">
+                                  <div class="card-body p-5 text-center shadow">
+                                      <p class="fs-lg">I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.
+                                      </p>
+                                      <div class="text-center pt-4">
+                                          <div class="avatar-xl rounded-circle overflow-hidden d-inline-flex">
+                                              <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                          </div>
+                                          <h6 class="m-0">Nancy Drew</h6>
+                                          <span>Co-Founder</span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="card mb-4">
+                                  <div class="card-body p-5 text-center shadow">
+                                      <p class="fs-lg">I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.
+                                      </p>
+                                      <div class="text-center pt-4">
+                                          <div class="avatar-xl rounded-circle overflow-hidden d-inline-flex">
+                                              <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                          </div>
+                                          <h6 class="m-0">Nancy Drew</h6>
+                                          <span>Co-Founder</span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="card mb-4">
+                                  <div class="card-body p-5 text-center shadow">
+                                      <p class="fs-lg">I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.
+                                      </p>
+                                      <div class="text-center pt-4">
+                                          <div class="avatar-xl rounded-circle overflow-hidden d-inline-flex">
+                                              <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                          </div>
+                                          <h6 class="m-0">Nancy Drew</h6>
+                                          <span>Co-Founder</span>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-pagination position-relative mt-4"></div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section data-scroll-index="3" class="section">
+              <div class="container">
+                  <div class="row gy-5">
+                      <div class="col-lg-6 pe-xl-12 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <h3 class="h2 mb-2">
+                              Get in Touch
+                          </h3>
+                          <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                          <ul class="list-unstyled mb-0 pt-3 border-bottom pb-2 mb-4">
+                              <li class="pb-3 d-flex">
+                                  <div class="icon-md bg-primary text-white rounded-circle">
+                                      <i class="bi bi-phone fs-5"></i>
+                                  </div>
+                                  <div class="ps-3">
+                                      <h6 class="mb-1">Phone</h6>
+                                      <span>+01 5565 6565 6565</span>
+                                  </div>
+                              </li>
+                              <li class="pb-3 d-flex">
+                                  <div class="icon-md bg-primary text-white rounded-circle">
+                                      <i class="bi bi-envelope fs-5"></i>
+                                  </div>
+                                  <div class="ps-3">
+                                      <h6 class="mb-1">Email</h6>
+                                      <span>info@domain.com</span>
+                                  </div>
+                              </li>
+                          </ul>
+                          <h3 class="h5 mb-2">
+                              Address
+                          </h3>
+                          <p>1600 Amphitheatre Parkway<br />New York WC1 1BA</p>
+                          <div class="mt-1 shadow-sm p-2 bg-body rounded">
+                            <iframe class="w-100 h-custom d-block" style="--bs-h-custom: 230px;" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="card shadow-lg">
+                              <div class="card-body p-lg-4">
+                                  <h3 class="h3 mb-3">You Can Mail Us</h3>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                  <form class="rd-mailform pt-3" data-form-output="form-output-global" data-form-type="contact" method="post" action="../assets/vendor/mail/bat/rd-mailform.php">
+                                      <div class="row gy-4">
+                                          <div class="col-sm-6">
+                                              <div class="form-floating">
+                                                  <input id="contact-name" type="text" name="name" placeholder="Rachel Roth" data-constraints="@Required" class="form-control">
+                                                  <label class="form-label" for="contact-name">Your Name</label>
+                                              </div>
+                                          </div>
+                                          <div class="col-sm-6">
+                                              <div class="form-floating">
+                                                  <input id="contact-email" type="email" name="email" placeholder="name@example.com" data-constraints="@Required" class="form-control">
+                                                  <label class="form-label" for="contact-email">Email Address</label>
+                                              </div>
+                                          </div>
+                                          <div class="col-sm-12">
+                                              <div class="form-floating">
+                                                  <input id="contact-subject" type="text" name="subject" placeholder="Subject" data-constraints="@Required" class="form-control">
+                                                  <label class="form-label" for="contact-email">Subject</label>
+                                              </div>
+                                          </div>
+                                          <div class="col-sm-6">
+                                              <div class="form-floating">
+                                                  <input type="text" name="contact-company" class="form-control" placeholder="pxdraft" id="contact-company">
+                                                  <label class="form-label" for="contact-company">Company (optional)</label>
+                                              </div>
+                                          </div>
+                                          <div class="col-sm-6">
+                                              <div class="form-floating">
+                                                  <input type="tel" name="contact-phone" class="form-control" placeholder="+01 888 888 6666" id="contact-phone">
+                                                  <label class="form-label" for="contact-phone">Phone (optional)</label>
+                                              </div>
+                                          </div>
+                                          <div class="col-12">
+                                              <div class="form-floating">
+                                                  <textarea class="form-control" id="contact-message" name="message" rows="3" placeholder="Hi there, I would like to ..." data-constraints="@Required" style="height: 150px"></textarea>
+                                                  <label class="form-label" for="contact-message">Message</label>
+                                              </div>
+                                          </div>
+                                          <div class="col-12">
+                                              <button class="btn btn-primary" type="submit" name="send">Get Started</button>
+                                              <div class="snackbars" id="form-output-global"></div>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+      
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_13.html', {
+        "path": ".",
+        "imgPath": "../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+    "path": "",
+    "FontsURL":
+    "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+    "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+        "path": "..",
+        "imgPath": "../assets",
+        "HeaderClass": "navbar-light fixed-top",
+        "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Section -->
+            <section class="bg-gray-100 overflow-hidden">
+                <div class="container">
+                    <div class="row gy-4 justify-content-center align-items-center py-12">
+                        <div class="col-lg-6 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h2 class="display-3 fw-800 mb-4">Boost Your Productivity</h2>
+                            <p class="fs-lg w-xl-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <div class="pt-3">
+                                <a class="btn btn-primary" href="#">Purchese Now for $22</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-center wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="d-inline-flex position-relative">
+                                <div class="position-absolute top-0 end-0 me-n6 mt-n6 scale-ani pe-none">
+                                    <img class="svg_img text-success" src="../assets/img/effect/vector-6.svg" title="" alt="">
+                                </div>
+                                <div class="position-absolute bottom-0 start-0 scale-ani pe-none">
+                                    <img class="svg_img text-warning mb-n5 ms-n6" src="../assets/img/effect/vector-5.svg" title="" alt="">
+                                </div>
+                                <img class="position-relative" src="../assets/img/home-banner/home-banner.jpg" title="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <div class="py-8">
+                <div class="container wow fadeInUp" data-wow-duration="0.5s">
+                    <div class="swiper swiper-container" data-swiper-options='{
+                                  "slidesPerView": 3,
+                                  "spaceBetween": 24,
+                                  "breakpoints": {
+                                    "650": {
+                                      "slidesPerView": 4
+                                    },
+                                    "991": {
+                                      "slidesPerView": 4
+                                    },
+                                    "1024": {
+                                      "slidesPerView": 6
+                                    }
+                                  }
+                                }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="px-4">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/airbnb.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-4">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/spotify.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-4">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/paypal.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-4">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/slack.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-4">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/spotify.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-4">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/airbnb.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="px-4">
+                                    <a href="#">
+                                        <img src="../assets/img/brand/amazon.svg" title="" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section pt-8 bg-light-gradient-reverse overflow-hidden">
+                <div class="container">
+                    <div class="row justify-content-center section-heading wow fadeInUp" data-wow-duration="0.5s">
+                        <div class="col-lg-8 col-xl-7 text-center">
+                            <h6 class="text-primary mb-3">What We provide</h6>
+                            <h3 class="h1 mb-0">We provide advanced solutions to growin your online business</h3>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-lg-4 position-relative wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="position-absolute top-0 start-0 scale-ani pe-none">
+                                <img class="svg_img text-success mt-n8 ms-n6" src="../assets/img/effect/vector-3.svg" title="" alt="">
+                            </div>
+                            <div class="card shadow-lg-hover hover-top">
+                                <div class="card-body text-center">
+                                    <div class="icon-xl bg-primary text-white rounded-circle p-3 mb-4">
+                                        <i class="bi bi-laptop"></i>
+                                    </div>
+                                    <h5 class="h5 mb-3">Fully Responsive</h5>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card shadow-lg-hover hover-top">
+                                <div class="card-body text-center">
+                                    <div class="icon-xl bg-primary text-white rounded-circle p-3 mb-4">
+                                        <i class="bi bi-eye"></i>
+                                    </div>
+                                    <h5 class="h5 mb-3">Retina Ready</h5>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 position-relative wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                            <div class="position-absolute bottom-0 end-0 scale-ani pe-none">
+                                <img class="svg_img text-warning mb-n8 me-n6" src="../assets/img/effect/vector-4.svg" title="" alt="">
+                            </div>
+                            <div class="card shadow-lg-hover hover-top">
+                                <div class="card-body text-center">
+                                    <div class="icon-xl bg-primary text-white rounded-circle p-3 mb-4">
+                                        <i class="bi bi-columns"></i>
+                                    </div>
+                                    <h5 class="h5 mb-3">Marketing & Reporting</h5>
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row gy-4 align-items-center">
+                        <div class="col-lg-6 pe-lg-6 pe-xl-12 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h6 class="text-primary mb-3">What We provide</h6>
+                            <h3 class="h1 mb-3">We provide advanced solutions to growin your online business</h3>
+                            <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                        </div>
+                    </div>
+                    <div class="row gy-4 align-items-center flex-row-reverse pt-10">
+                        <div class="col-lg-6 ps-lg-6 ps-xl-12 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h6 class="text-primary mb-3">What We provide</h6>
+                            <h3 class="h1 mb-3">We provide advanced solutions to growin your online business</h3>
+                            <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                        <div class="col-lg-9 col-xl-8 text-center">
+                            <h6 class="text-primary mb-3">Get comfy with Mombo for free</h6>
+                            <h3 class="h1 mb-0">Get comfy with Mombo for free</h3>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="card shadow-lg-hover hover-top">
+                                <div class="card-body py-6 text-center">
+                                    <h4 class="h3 mb-0">Personal</h4>
+                                    <h6 class="mt-2 text-muted">Only For One Person:</h6>
+                                    <div class="my-4 pt-2">
+                                        <h3 class="m-0 h1">$50</h3>
+                                        <span>free forever</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-0 pb-4 text-center">
+                                        <li class="py-2">10 GB of Space </li>
+                                        <li class="py-2">Unlimited Projects</li>
+                                        <li class="py-2">Unlimited Users</li>
+                                        <li class="py-2">Unlimited Datas</li>
+                                        <li class="py-2">Unlimited File Recovery</li>
+                                    </ul>
+                                    <a class="btn btn-primary" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card shadow-lg-hover hover-top">
+                                <div class="card-body py-6 text-center">
+                                    <h4 class="h3 mb-0">Personal</h4>
+                                    <h6 class="mt-2 text-muted">Only For One Person:</h6>
+                                    <div class="my-4 pt-2">
+                                        <h3 class="m-0 h1">$50</h3>
+                                        <span>free forever</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-0 pb-4 text-center">
+                                        <li class="py-2">10 GB of Space </li>
+                                        <li class="py-2">Unlimited Projects</li>
+                                        <li class="py-2">Unlimited Users</li>
+                                        <li class="py-2">Unlimited Datas</li>
+                                        <li class="py-2">Unlimited File Recovery</li>
+                                    </ul>
+                                    <a class="btn btn-primary" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                            <div class="card shadow-lg-hover hover-top">
+                                <div class="card-body py-6 text-center">
+                                    <h4 class="h3 mb-0">Personal</h4>
+                                    <h6 class="mt-2 text-muted">Only For One Person:</h6>
+                                    <div class="my-4 pt-2">
+                                        <h3 class="m-0 h1">$50</h3>
+                                        <span>free forever</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-0 pb-4 text-center">
+                                        <li class="py-2">10 GB of Space </li>
+                                        <li class="py-2">Unlimited Projects</li>
+                                        <li class="py-2">Unlimited Users</li>
+                                        <li class="py-2">Unlimited Datas</li>
+                                        <li class="py-2">Unlimited File Recovery</li>
+                                    </ul>
+                                    <a class="btn btn-primary" href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-9 col-xl-8 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h6 class="text-primary mb-3">Out best team</h6>
+                            <h3 class="h1 mb-0">Our qualified team</h3>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-sm-6 col-lg-3 hover-scale wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <div class="hover-scale-in overflow-hidden rounded-3">
+                                <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                            </div>
+                            <div class="position-relative mx-4 mx-lg-3 bg-body shadow-lg rounded-3 p-4 mt-n5 text-center">
+                                <h6 class="mb-0">Nancy Drew</h6>
+                                <span class="text-muted small">UI engineer</span>
+                                <div class="nav pt-2 justify-content-center">
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-facebook mx-1" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-twitter mx-1" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-linkedin mx-1" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-instagram mx-1" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 hover-scale wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="hover-scale-in overflow-hidden rounded-3">
+                                <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                            </div>
+                            <div class="position-relative mx-4 mx-lg-3 bg-body shadow-lg rounded-3 p-4 mt-n5 text-center">
+                                <h6 class="mb-0">Nancy Drew</h6>
+                                <span class="text-muted small">UI engineer</span>
+                                <div class="nav pt-2 justify-content-center">
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-facebook mx-1" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-twitter mx-1" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-linkedin mx-1" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-instagram mx-1" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 hover-scale wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                            <div class="hover-scale-in overflow-hidden rounded-3">
+                                <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                            </div>
+                            <div class="position-relative mx-4 mx-lg-3 bg-body shadow-lg rounded-3 p-4 mt-n5 text-center">
+                                <h6 class="mb-0">Nancy Drew</h6>
+                                <span class="text-muted small">UI engineer</span>
+                                <div class="nav pt-2 justify-content-center">
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-facebook mx-1" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-twitter mx-1" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-linkedin mx-1" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-instagram mx-1" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 hover-scale wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">
+                            <div class="hover-scale-in overflow-hidden rounded-3">
+                                <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                            </div>
+                            <div class="position-relative mx-4 mx-lg-3 bg-body shadow-lg rounded-3 p-4 mt-n5 text-center">
+                                <h6 class="mb-0">Nancy Drew</h6>
+                                <span class="text-muted small">UI engineer</span>
+                                <div class="nav pt-2 justify-content-center">
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-facebook mx-1" href="#"><i class="lh-1 bi-facebook"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-twitter mx-1" href="#"><i class="lh-1 bi-twitter"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-linkedin mx-1" href="#"><i class="lh-1 bi-linkedin"></i></a>
+                                    <a class="icon-sm hover-top rounded-circle text-white bg-instagram mx-1" href="#"><i class="lh-1 bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-9 col-xl-8 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h6 class="text-primary mb-3">Testimonials</h6>
+                            <h3 class="h1 mb-0">What our customers say?</h3>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 24,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 3
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card mb-4 mx-1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center pb-4">
+                                            <div class="avatar-lg">
+                                                <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h6 class="mb-1">Nancy Drew</h6>
+                                                <small>UI/UX Designer</small>
+                                            </div>
+                                        </div>
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card mb-4 mx-1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center pb-4">
+                                            <div class="avatar-lg">
+                                                <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h6 class="mb-1">Nancy Drew</h6>
+                                                <small>UI/UX Designer</small>
+                                            </div>
+                                        </div>
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card mb-4 mx-1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center pb-4">
+                                            <div class="avatar-lg">
+                                                <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h6 class="mb-1">Nancy Drew</h6>
+                                                <small>UI/UX Designer</small>
+                                            </div>
+                                        </div>
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card mb-4 mx-1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center pb-4">
+                                            <div class="avatar-lg">
+                                                <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h6 class="mb-1">Nancy Drew</h6>
+                                                <small>UI/UX Designer</small>
+                                            </div>
+                                        </div>
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-2"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row gy-4 align-items-center">
+                        <div class="col-lg-6 text-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                        </div>
+                        <div class="col-lg-6 ps-lg-8 ps-xl-12 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="icon-xl bg-primary rounded-circle mb-4 text-white">
+                                <i class="bi bi-download"></i>
+                            </div>
+                            <h3 class="h1 mb-3">We help to create visual strategies</h3>
+                            <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="pt-3 d-flex">
+                                <a class="me-3" href="#"><img src="../assets/img/effect/playstore.png" title="" alt=""></a>
+                                <a href="#"><img src="../assets/img/effect/apple-store.png" title="" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_08.html', {
+        "path": ".",
+        "imgPath": "../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

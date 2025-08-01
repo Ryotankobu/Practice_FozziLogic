@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap",
+        "CSSName": "restaurant",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+========================
+Wrapper 
+========================
+-->
+    <div class="wrapper">
+        
+        @@include('./header/_restaurant_header.html',{
+        "path": "",
+        "HeaderClass": "",
+        })
+        
+        <!-- Main -->
+        <main>
+            @@include('./page-heading/_page-heading-02.html', {
+                "titleSm": "HISTORY",
+                "title": "Our History",
+            })
+            <!-- section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row section-heading justify-content-center">
+                        <div class="col-lg-8 text-center">
+                            <p class="text-primary title-01 m-0">ONLINE RESERVATION</p>
+                            <h3 class="h1 pt-1 m-0">BOOK A TABLE</h3>
+                        </div>
+                    </div>
+                    <form method="post" action="">
+                        <div class="row g-3">
+                            <div class="col-md-4 col-sm-6">
+                                <label class="form-label">Persons</label>
+                                <select class="form-select">
+                                    <option value="1 Person">1 Person</option>
+                                    <option value="2 People">2 People</option>
+                                    <option value="3 People">3 People</option>
+                                    <option value="4 People">4 People</option>
+                                    <option value="5 People">5 People</option>
+                                    <option value="6 People">6 People</option>
+                                    <option value="7 People">7 People</option>
+                                    <option value="8 People">8 People</option>
+                                    <option value="9 People">9 People</option>
+                                    <option value="10 People">10 People</option>
+                                    <option value="11 People">11 People</option>
+                                    <option value="12 People">12 People</option>
+                                    <option value="13 People">13 People</option>
+                                    <option value="14 People">14 People</option>
+                                    <option value="15 People">15 People</option>
+                                    <option value="16 People">16 People</option>
+                                    <option value="17 People">17 People</option>
+                                    <option value="18 People">18 People</option>
+                                    <option value="19 People">19 People</option>
+                                    <option value="20 People">20 People</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <label class="form-label">Your Data</label>
+                                <input type="date" name="data" class="form-control">
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <label class="form-label">Select Time</label>
+                                <select class="form-select">
+                                    <option value="10:00 AM">10:00 AM</option>
+                                    <option value="10:30 AM">10:30 AM</option>
+                                    <option value="11:00 AM">11:00 AM</option>
+                                    <option value="11:30 AM">11:30 AM</option>
+                                    <option value="12:00 PM">12:00 PM</option>
+                                    <option value="12:30 PM">12:30 PM</option>
+                                    <option value="1:00 PM">1:00 PM</option>
+                                    <option value="1:30 PM">1:30 PM</option>
+                                    <option value="2:00 PM">2:00 PM</option>
+                                    <option value="2:30 PM">2:30 PM</option>
+                                    <option value="3:00 PM">3:00 PM</option>
+                                    <option value="3:30 PM">3:30 PM</option>
+                                    <option value="4:00 PM">4:00 PM</option>
+                                    <option value="4:30 PM">4:30 PM</option>
+                                    <option value="5:00 PM">5:00 PM</option>
+                                    <option value="5:30 PM">5:30 PM</option>
+                                    <option value="6:00 PM">6:00 PM</option>
+                                    <option value="6:30 PM">6:30 PM</option>
+                                    <option value="7:00 PM">7:00 PM</option>
+                                    <option value="7:30 PM">7:30 PM</option>
+                                    <option value="8:00 PM">8:00 PM</option>
+                                    <option value="8:30 PM">8:30 PM</option>
+                                    <option value="9:00 PM">9:00 PM</option>
+                                    <option value="9:30 PM">9:30 PM</option>
+                                    <option value="10:00 PM">10:00 PM</option>
+                                    <option value="10:30 PM">10:30 PM</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <label class="form-label">Your Name</label>
+                                <input type="text" name="name" placeholder="Your Name" class="form-control">
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <label class="form-label">Your Email</label>
+                                <input type="email" name="email" placeholder="Your Email" class="form-control">
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <label class="form-label">Your Phone</label>
+                                <input type="text" name="phone" placeholder="Your Phone" class="form-control">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Special Requests</label>
+                                <textarea class="form-control" rows="6" placeholder="Special Requests"></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <a class="btn btn-outline-primary" href="#">Book A Table Now</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- End section -->
+            <!-- section -->
+            <section class="section position-relative" style="background-image: url(../assets/img/restrourent/home-banner-3.jpg);">
+                <div class="position-absolute opacity-60 top-0 end-0 start-0 bottom-0 bg-black"></div>
+                <div class="container position-relative">
+                    <div class="row align-items-center gy-5">
+                        <div class="col-lg-8">
+                            <p class="text-white">COME AND SEE</p>
+                            <h3 class="display-3 text-white m-0">We create delicious experiences</h3>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <a data-glightbox="" data-gallery="office-tour" href="https://www.youtube.com/watch?v=ZXEC0IrOWGk" class="icon-xl btn btn-outline-white p-0 rounded-circle after-shadow video-btn">
+                                <i class="bi-play-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end section -->
+            <!-- section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row gy-5 align-items-center">
+                        <div class="col-lg-5 pe-xl-10">
+                            <p class="text-primary title-01 m-0">UNITED KINGDOM</p>
+                            <h3 class="h1 mb-4 pt-3">LONDON</h3>
+                            <p class="lead">Simple and balanced. Alexander Petillo brings together flavors and specialties</p>
+                            <address class="pt-4">
+                                <div class="d-flex">
+                                    <div class="icon-md bg-primary text-white rounded-circle">
+                                        <i class="bi-map"></i>
+                                    </div>
+                                    <p class="col ps-3">301 The Greenhouse London,<br> E2 8DY UK</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="icon-md bg-primary text-white rounded-circle">
+                                        <i class="bi-envelope"></i>
+                                    </div>
+                                    <p class="col ps-3">support@domain.com<br> info@domain.com</p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="icon-md bg-primary text-white rounded-circle">
+                                        <i class="bi-phone"></i>
+                                    </div>
+                                    <p class="col ps-3">+01 8585 855 855<br> 02454 8523 856</p>
+                                </div>
+                            </address>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="row align-items-center g-0">
+                                <div class="col-6">
+                                    <img src="../assets/img/restrourent/about-1.jpg" title="" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <img class="ms-n5" src="../assets/img/restrourent/about-1.jpg" title="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_restaurant_footer.html',{
+        "path": "",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+========================
+End Wrapper 
+========================
+-->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

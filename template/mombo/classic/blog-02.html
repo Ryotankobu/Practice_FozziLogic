@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <div class="header-height-bar"></div>
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top header-height bg-body border-bottom",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- section -->
+            <div class="swiper swiper-container" data-swiper-options='{
+                "slidesPerView": 1,
+                "spaceBetween": 20,
+                 "centeredSlides": true,
+                 "loop": true,
+                "navigation": {
+                  "nextEl": ".swiper-next-01",
+                  "prevEl": ".swiper-prev-01"
+                },
+                "autoplay": {
+                  "delay": 5000,
+                  "disableOnInteraction": false
+                },
+                "breakpoints": {
+                  "991": {
+                    "slidesPerView": 1
+                  },
+                  "1024": {
+                    "slidesPerView": 2
+                  }
+                }
+              }'>
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="effect-section bg-no-repeat bg-cover bg-center" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                          <div class="container position-relative">
+                              <div class="row min-vh-60 justify-content-center align-items-center py-12">
+                                  <div class="col-lg-10 col-xxl-7 text-center pb-10 pt-5">
+                                      <h1 class="display-5 text-white fw-700 pt-3">It's time to amplify your online business.</h1>
+                                      <div class="fs-lg text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                      <div class="pt-1">
+                                          <a class="btn btn-primary" href="#">
+                                              Read More
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="effect-section bg-no-repeat bg-cover bg-center" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                          <div class="container position-relative">
+                              <div class="row min-vh-60 justify-content-center align-items-center py-12">
+                                  <div class="col-lg-10 col-xxl-7 text-center pb-10 pt-5">
+                                      <h1 class="display-5 text-white fw-700 pt-3">It's time to amplify your online business.</h1>
+                                      <div class="fs-lg text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                      <div class="pt-1">
+                                          <a class="btn btn-primary" href="#">
+                                              Read More
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="effect-section bg-no-repeat bg-cover bg-center" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                          <div class="container position-relative">
+                              <div class="row min-vh-60 justify-content-center align-items-center py-12">
+                                  <div class="col-lg-10 col-xxl-7 text-center pb-10 pt-5">
+                                      <h1 class="display-5 text-white fw-700 pt-3">It's time to amplify your online business.</h1>
+                                      <div class="fs-lg text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                      <div class="pt-1">
+                                          <a class="btn btn-primary" href="#">
+                                              Read More
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-arrow-style-04 swiper-next swiper-next-01"><i class="bi bi-chevron-right"></i> </div>
+              <div class="swiper-arrow-style-04 swiper-prev swiper-prev-01"><i class="bi bi-chevron-left"></i></div>
+          </div>
+          <!-- End section -->
+          <!-- section -->
+          <section class="section bg-gray-100">
+              <div class="container">
+                  <div class="row justify-content-lg-between">
+                      <!-- Blog -->
+                      <div class="col-lg-8">
+                          <div class="card p-2 position-relative hover-top mb-4">
+                              <div class="row">
+                                  <div class="col-lg-5">
+                                      <a href="#">
+                                          <img class="card-img" src="../assets/img/blog/blog-lg-1.jpg" title="" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="col-lg-7">
+                                      <div class="card-body d-flex flex-column h-100 px-0">
+                                          <span class="d-block mb-2">
+                                              <a class="fw-700" href="#">Business</a>
+                                          </span>
+                                          <h3 class="h4"><a class="text-reset stretched-link" href="#">How to take beautiful photos with phone?</a></h3>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                                          <div class="d-flex align-items-center mt-auto">
+                                              <div class="avatar avatar-sm rounded-circle">
+                                                  <img class="rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                              </div>
+                                              <div class="col ps-3 fw-500 dark-link">
+                                                  <a class="text-reset" href="#">Nancy Pelosi</a>
+                                                  <span></span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card p-2 position-relative hover-top mb-4">
+                              <div class="row">
+                                  <div class="col-lg-5">
+                                      <a href="#">
+                                          <img class="card-img" src="../assets/img/blog/blog-lg-1.jpg" title="" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="col-lg-7">
+                                      <div class="card-body d-flex flex-column h-100 px-0">
+                                          <span class="d-block mb-2">
+                                              <a class="fw-700" href="#">Business</a>
+                                          </span>
+                                          <h3 class="h4"><a class="text-reset stretched-link" href="#">How to take beautiful photos with phone?</a></h3>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                                          <div class="d-flex align-items-center mt-auto">
+                                              <div class="avatar avatar-sm rounded-circle">
+                                                  <img class="rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                              </div>
+                                              <div class="col ps-3 fw-500 dark-link">
+                                                  <a class="text-reset" href="#">Nancy Pelosi</a>
+                                                  <span></span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card p-2 position-relative hover-top mb-4">
+                              <div class="row">
+                                  <div class="col-lg-5">
+                                      <a href="#">
+                                          <img class="card-img" src="../assets/img/blog/blog-lg-1.jpg" title="" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="col-lg-7">
+                                      <div class="card-body d-flex flex-column h-100 px-0">
+                                          <span class="d-block mb-2">
+                                              <a class="fw-700" href="#">Business</a>
+                                          </span>
+                                          <h3 class="h4"><a class="text-reset stretched-link" href="#">How to take beautiful photos with phone?</a></h3>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                                          <div class="d-flex align-items-center mt-auto">
+                                              <div class="avatar avatar-sm rounded-circle">
+                                                  <img class="rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                              </div>
+                                              <div class="col ps-3 fw-500 dark-link">
+                                                  <a class="text-reset" href="#">Nancy Pelosi</a>
+                                                  <span></span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card p-2 position-relative hover-top mb-4">
+                              <div class="row">
+                                  <div class="col-lg-5">
+                                      <a href="#">
+                                          <img class="card-img" src="../assets/img/blog/blog-lg-1.jpg" title="" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="col-lg-7">
+                                      <div class="card-body d-flex flex-column h-100 px-0">
+                                          <span class="d-block mb-2">
+                                              <a class="fw-700" href="#">Business</a>
+                                          </span>
+                                          <h3 class="h4"><a class="text-reset stretched-link" href="#">How to take beautiful photos with phone?</a></h3>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                                          <div class="d-flex align-items-center mt-auto">
+                                              <div class="avatar avatar-sm rounded-circle">
+                                                  <img class="rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                              </div>
+                                              <div class="col ps-3 fw-500 dark-link">
+                                                  <a class="text-reset" href="#">Nancy Pelosi</a>
+                                                  <span></span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card p-2 position-relative hover-top mb-4">
+                              <div class="row">
+                                  <div class="col-lg-5">
+                                      <a href="#">
+                                          <img class="card-img" src="../assets/img/blog/blog-lg-1.jpg" title="" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="col-lg-7">
+                                      <div class="card-body d-flex flex-column h-100 px-0">
+                                          <span class="d-block mb-2">
+                                              <a class="fw-700" href="#">Business</a>
+                                          </span>
+                                          <h3 class="h4"><a class="text-reset stretched-link" href="#">How to take beautiful photos with phone?</a></h3>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                                          <div class="d-flex align-items-center mt-auto">
+                                              <div class="avatar avatar-sm rounded-circle">
+                                                  <img class="rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                              </div>
+                                              <div class="col ps-3 fw-500 dark-link">
+                                                  <a class="text-reset" href="#">Nancy Pelosi</a>
+                                                  <span></span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- pagination -->
+                          <div class="pt-3">
+                              <ul class="pagination">
+                                  <li class="page-item disabled">
+                                      <a class="page-link" href="#" tabindex="-1"><i class="bi-chevron-left"></i></a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item active">
+                                      <a class="page-link" href="#">2</a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item">
+                                      <a class="page-link" href="#"><i class="bi-chevron-right"></i></a>
+                                  </li>
+                              </ul>
+                          </div>
+                          <!-- End pagination -->
+                      </div>
+                      <!-- End Blog -->
+                      <!-- Sidebar -->
+                      <div class="col-lg-4">
+                          <div class="card mb-4">
+                              <div class="card-header">
+                                  <h5 class="mb-0">Search</h5>
+                              </div>
+                              <div class="card-body text-center">
+                                  <form>
+                                      <div class="d-flex flex-row">
+                                          <input type="email" class="form-control me-md-2" placeholder="Enter your username">
+                                          <button class="btn btn-primary flex-shrink-0" type="submit"><i class="bi bi-search"></i></button>
+                                      </div>
+                                  </form>
+                              </div>
+                          </div>
+                          <div class="card mb-4">
+                              <div class="card-body text-center">
+                                  <div class="avatar avatar-xxl mb-4">
+                                      <img class="rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                  </div>
+                                  <h5 class="mb-4">About Author</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                                  <div class="nav justify-content-center">
+                                      <a class="icon-sm bg-primary text-white rounded-circle mx-1" href="#">
+                                          <i class="bi-facebook"></i>
+                                      </a>
+                                      <a class="icon-sm bg-primary text-white rounded-circle mx-1" href="#">
+                                          <i class="bi-twitter"></i>
+                                      </a>
+                                      <a class="icon-sm bg-primary text-white rounded-circle mx-1" href="#">
+                                          <i class="bi-instagram"></i>
+                                      </a>
+                                      <a class="icon-sm bg-primary text-white rounded-circle mx-1" href="#">
+                                          <i class="bi-linkedin"></i>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card mb-4">
+                              <div class="card-header">
+                                  <h5 class="mb-0">Popular Posts</h5>
+                              </div>
+                              <div class="card-body">
+                                  <div class="d-flex py-2">
+                                      <div class="avatar avatar-lg">
+                                          <img class="rounded-3" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                      </div>
+                                      <div class="col ps-3">
+                                          <h6 class="fw-600 mb-1"><a class="text-reset" href="#">Markdown Language Sample Blog Post Styling</a></h6>
+                                          <small>29 March 2021</small>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex py-2">
+                                      <div class="avatar avatar-lg rounded-circle">
+                                          <img class="rounded-3" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                      </div>
+                                      <div class="col ps-3">
+                                          <h6 class="fw-600 mb-1"><a class="text-reset" href="#">Markdown Language Sample Blog Post Styling</a></h6>
+                                          <small>29 March 2021</small>
+                                      </div>
+                                  </div>
+                                  <div class="d-flex py-2">
+                                      <div class="avatar avatar-lg rounded-circle">
+                                          <img class="rounded-3" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                      </div>
+                                      <div class="col ps-3">
+                                          <h6 class="fw-600 mb-1"><a class="text-reset" href="#">Markdown Language Sample Blog Post Styling</a></h6>
+                                          <small>29 March 2021</small>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="card mb-4">
+                              <div class="card-header">
+                                  <h5 class="mb-0">Top Categories</h5>
+                              </div>
+                              <div class="card-body">
+                                  <ul class="list-unstyled primary-link fw-500 m-0">
+                                      <li class="pb-2">
+                                          <a class="d-flex text-reset col" href="#">Lifestyle <span class="ms-auto fw-400 text-body">(19)</span> </a>
+                                      </li>
+                                      <li class="pb-2">
+                                          <a class="d-flex text-reset col" href="#">Inspiration <span class="ms-auto fw-400 text-body">(10)</span> </a>
+                                      </li>
+                                      <li class="pb-2">
+                                          <a class="d-flex text-reset col" href="#">Fashion <span class="ms-auto fw-400 text-body">(5)</span> </a>
+                                      </li>
+                                      <li class="pb-2">
+                                          <a class="d-flex text-reset col" href="#">Politic <span class="ms-auto fw-400 text-body">(25)</span> </a>
+                                      </li>
+                                      <li class="pb-2">
+                                          <a class="d-flex text-reset col" href="#">Trending <span class="ms-auto fw-400 text-body">(45)</span> </a>
+                                      </li>
+                                      <li>
+                                          <a class="d-flex text-reset col" href="#">Culture <span class="ms-auto fw-400 text-body">(12)</span> </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="card mb-4">
+                              <div class="card-header">
+                                  <h5 class="mb-0">Newsletter</h5>
+                              </div>
+                              <div class="card-body">
+                                  <h6 class="fw-500">Join 70,000 subscribers!</h6>
+                                  <form>
+                                      <div class="d-flex flex-column mb-2">
+                                          <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                                          <button class="btn btn-primary flex-shrink-0" type="submit">Get Started</button>
+                                      </div>
+                                      <p class="small m-0 text-center">By signing up, you agree to our <a href="#">Privacy Policy</a></p>
+                                  </form>
+                              </div>
+                          </div>
+                          <div class="card mb-4">
+                              <div class="card-header">
+                                  <h5 class="mb-0">Popular Tags</h5>
+                              </div>
+                              <div class="card-body">
+                                  <div class="nav tag-style">
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Fashion</a>
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Travel</a>
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Nature</a>
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Sport</a>
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Weather</a>
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Trends</a>
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Gear</a>
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Lifestyle</a>
+                                      <a class="btn btn-mode btn-sm mb-1 me-1 border px-3" href="#">Technology</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- End Sidebar -->
+                  </div>
+              </div>
+          </section>
+          <!-- End section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

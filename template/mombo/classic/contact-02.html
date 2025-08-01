@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <div class="header-height-bar"></div>
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top header-height bg-body border-bottom",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Section -->
+            <section class="section effect-section bg-gray-100">
+                <img class="position-absolute bottom-0 start-0 pe-none w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 250px;" src="../assets/img/effect/polygon-01.png" title="" alt="">
+                <img class="position-absolute top-0 end-0 pe-none w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 150px;" src="../assets/img/effect/polygon-02.png" title="" alt="">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-9 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h3 class="h1 mb-3">Contact our sales team</h3>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="card shadow wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                                <div class="card-body p-5 p-lg-7">
+                                    <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="../assets/vendor/mail/bat/rd-mailform.php">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-3">
+                                                    <label class="form-label" for="contact-name">Your Name</label>
+                                                    <input id="contact-name" type="text" name="name" placeholder="Rachel Roth" data-constraints="@Required" class="form-control">
+                                                </div>
+                                                <div class="form-group mb-3">
+                                                    <label class="form-label" for="contact-email">Email Address</label>
+                                                    <input id="contact-email" type="email" name="email" placeholder="name@example.com" data-constraints="@Required" class="form-control">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="form-label" for="contact-phone">Phone (optional)</label>
+                                                    <input type="tel" name="contact-phone" class="form-control" placeholder="+01 888 888 6666" id="contact-phone">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 d-flex flex-row">
+                                                <div class="form-group w-100 d-flex flex-column">
+                                                    <label class="form-label" for="contact-message">Message</label>
+                                                    <textarea class="form-control min-h-150px h-100 w-100" id="contact-message" name="message" rows="3" placeholder="Hi there, I would like to ..." data-constraints="@Required" style="height: 150px"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 pt-2">
+                                                <button class="btn btn-primary" type="submit" name="send">Get Started</button>
+                                                <div class="snackbars" id="form-output-global"></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="bg-gray-100">
+                <div class="container">
+                    <div class="border position-relative bg-body shadow-lg z-1 wow fadeInUp" data-wow-duration="0.5s">
+                        <div class="row separated">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="py-5 text-center">
+                                    <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle mb-4">
+                                        <i class="fs-4 bi bi-map"></i>
+                                    </div>
+                                    <h6 class="m-0">New York, NY 92103, USA</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="py-5 text-center">
+                                    <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle mb-4">
+                                        <i class="fs-4 bi bi-phone"></i>
+                                    </div>
+                                    <h6 class="m-0">1-800-222-000</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="py-5 text-center">
+                                    <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle mb-4">
+                                        <i class="fs-4 bi bi-envelope"></i>
+                                    </div>
+                                    <h6 class="m-0">info@domain.com</h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="py-5 text-center">
+                                    <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle mb-4">
+                                        <i class="fs-4 bi bi-map"></i>
+                                    </div>
+                                    <h6 class="m-0">1800 302 2302</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <div class="mt-n10 border-top">
+                <iframe class="min-vh-50 w-100 m-0 align-top grayscale" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.843821917424!2d144.956054!3d-37.817127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1427947693651"></iframe>
+            </div>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Subscribe",
+            })
+             <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 col-xl-7 text-center">
+                            <h3 class="h1">Our experience experts</h3>
+                            <div class="fs-lg">Raino is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-xl-7">
+                            <form class="d-flex flex-row mb-2 p-1 bg-body input-group shadow-lg">
+                                <input type="email" class="form-control form-control-lg rounded-0 border-0" placeholder="you@yoursite.com">
+                                <button class="btn btn-primary rounded-0 flex-shrink-0" type="submit">Get Started</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

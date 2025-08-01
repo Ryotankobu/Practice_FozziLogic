@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <div class="header-height-bar"></div>
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top header-height bg-body border-bottom",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Section -->
+            <section class="section bg-gray-100 border-bottom">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-9 col-xl-8 text-center">
+                            <h3 class="h1 mb-3">Frequently asked questions.</h3>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <h4 class="mb-4">Basics</h4>
+                            <div class="accordion" id="accordionExample_01">
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_01_1">
+                                        <button class="py-3 accordion-button text-start fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_01_1" aria-expanded="true" aria-controls="collapse_01_1">
+                                            Can I change plans later on?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_01_1" class="accordion-collapse collapse show" aria-labelledby="heading_01_1" data-bs-parent="#accordionExample_01">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_01_2">
+                                        <button class="py-3 accordion-button text-start fw-600 fs-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_01_2" aria-expanded="false" aria-controls="collapse_01_2">
+                                            What is the difference between Pro and Ultimate?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_01_2" class="accordion-collapse collapse" aria-labelledby="heading_01_2" data-bs-parent="#accordionExample_01">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_01_3">
+                                        <button class="py-3 accordion-button text-start fw-600 fs-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_01_3" aria-expanded="false" aria-controls="collapse_01_3">
+                                            Can I try before I buy?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_01_3" class="accordion-collapse collapse" aria-labelledby="heading_01_3" data-bs-parent="#accordionExample_01">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="mb-4 mt-6">Syncing</h4>
+                            <div class="accordion" id="accordionExample_02">
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_02_1">
+                                        <button class="py-3 accordion-button text-start fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_02_1" aria-expanded="true" aria-controls="collapse_02_1">
+                                            Can I change plans later on?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_02_1" class="accordion-collapse collapse show" aria-labelledby="heading_02_1" data-bs-parent="#accordionExample_02">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_02_2">
+                                        <button class="py-3 accordion-button text-start fw-600 fs-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_02_2" aria-expanded="false" aria-controls="collapse_02_2">
+                                            What is the difference between Pro and Ultimate?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_02_2" class="accordion-collapse collapse" aria-labelledby="heading_02_2" data-bs-parent="#accordionExample_02">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_02_3">
+                                        <button class="py-3 accordion-button text-start fw-600 fs-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_02_3" aria-expanded="false" aria-controls="collapse_02_3">
+                                            Can I try before I buy?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_02_3" class="accordion-collapse collapse" aria-labelledby="heading_02_3" data-bs-parent="#accordionExample_02">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="mb-4 mt-6">Account & settings</h4>
+                            <div class="accordion" id="accordionExample_03">
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_03_1">
+                                        <button class="py-3 accordion-button text-start fw-600" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_03_1" aria-expanded="true" aria-controls="collapse_03_1">
+                                            Can I change plans later on?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_03_1" class="accordion-collapse collapse show" aria-labelledby="heading_03_1" data-bs-parent="#accordionExample_03">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_03_2">
+                                        <button class="py-3 accordion-button text-start fw-600 fs-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_03_2" aria-expanded="false" aria-controls="collapse_03_2">
+                                            What is the difference between Pro and Ultimate?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_03_2" class="accordion-collapse collapse" aria-labelledby="heading_03_2" data-bs-parent="#accordionExample_03">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <p class="m-0 accordion-header" id="heading_03_3">
+                                        <button class="py-3 accordion-button text-start fw-600 fs-lg collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_03_3" aria-expanded="false" aria-controls="collapse_03_3">
+                                            Can I try before I buy?
+                                        </button>
+                                    </p>
+                                    <div id="collapse_03_3" class="accordion-collapse collapse" aria-labelledby="heading_03_3" data-bs-parent="#accordionExample_03">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 pt-10">
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <div class="card position-relative hover-top shadow-hover">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex">
+                                                <div class="icon-lg bg-primary rounded-circle text-white">
+                                                    <i class="bi bi-chat-dots"></i>
+                                                </div>
+                                                <div class="col ps-3">
+                                                    <h6><a class="stretched-link text-reset" href="#">Ask a question</a></h6>
+                                                    <p class="m-0">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card position-relative hover-top shadow-hover">
+                                        <div class="card-body p-4">
+                                            <div class="d-flex">
+                                                <div class="icon-lg bg-primary rounded-circle text-white">
+                                                    <i class="bi bi-chat-dots"></i>
+                                                </div>
+                                                <div class="col ps-3">
+                                                    <h6><a class="stretched-link text-reset" href="#">Read documentation</a></h6>
+                                                    <p class="m-0">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

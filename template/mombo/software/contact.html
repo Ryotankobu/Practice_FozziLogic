@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap",
+        "CSSName": "software",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_software_header.html',{
+        "path": "",
+        "HeaderClass": "navbar-transparent-normal",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Section -->
+            <section class="section overflow-hidden position-relative">
+                <div class="position-absolute bg-g-efect-1 top-0 start-0 bottom-0 end-0 pe-none">
+                    <div class="position-absolute bg-g-efect-2 top-0 start-0 end-0 bottom-0"></div>
+                </div>
+                <div class="container position-relative pt-10">
+                    <div class="row section-heading justify-content-center">
+                        <div class="col-lg-6 text-center">
+                            <h2 class="display-5 m-0">Let's <span class="font-alt fst-italic mark">connect</span> and get to know each other</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="card card-body p-4 p-lg-6">
+                                <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="#">
+                                    <div class="row gy-4">
+                                        <div class="col-md-6">
+                                            <label class="form-label" for="contact-name">Full name *</label>
+                                            <input id="contact-name" type="text" name="name" placeholder="Rachel Roth" data-constraints="@Required" class="form-control">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label" for="contact-email">Your email *</label>
+                                            <input id="contact-email" type="email" name="email" placeholder="name@example.com" data-constraints="@Required" class="form-control">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label" for="contact-phone">Phone</label>
+                                            <input type="tel" name="contact-phone" class="form-control" placeholder="+01 888 888 6666" id="contact-phone">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="form-label" for="contactsubject">Subject *</label>
+                                            <input type="tel" name="contactsubject" class="form-control" placeholder="+01 888 888 6666" id="contactsubject">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label class="form-label" for="contact-message">We can help you?</label>
+                                            <textarea class="form-control" id="contact-message" name="message" rows="5" placeholder="Hi there, I would like to ..." data-constraints="@Required"></textarea>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-primary" type="submit" name="send">Get Started</button>
+                                            <div class="snackbars" id="form-output-global"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row section-heading justify-content-center">
+                        <div class="col-lg-7 text-center">
+                            <h2 class="display-5 m-0">A better <span class="font-alt fst-italic mark">way to work</span> with people outside your <span class="font-alt fst-italic mark">company</span></h2>
+                        </div>
+                    </div>
+                    <div class="row gy-4 g-lg-5 justify-content-center">
+                        <div class="col-lg-5">
+                            <div class="card hover-top shadow-hover-lg">
+                                <div class="card-body p-lg-4">
+                                    <div class="d-flex align-items-center pb-3">
+                                        <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-3">
+                                            <i class="bi bi-laptop"></i>
+                                        </div>
+                                        <div class="col ps-4">
+                                            <h5 class="m-0">Close deals with prospects faster</h5>
+                                        </div>
+                                    </div>
+                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="card hover-top shadow-hover-lg">
+                                <div class="card-body p-lg-4">
+                                    <div class="d-flex align-items-center pb-3">
+                                        <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-3">
+                                            <i class="bi bi-graph-up-arrow"></i>
+                                        </div>
+                                        <div class="col ps-4">
+                                            <h5 class="m-0">Build stronger customer relationships</h5>
+                                        </div>
+                                    </div>
+                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="card hover-top shadow-hover-lg">
+                                <div class="card-body p-lg-4">
+                                    <div class="d-flex align-items-center pb-3">
+                                        <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-3">
+                                            <i class="bi bi-command"></i>
+                                        </div>
+                                        <div class="col ps-4">
+                                            <h5 class="m-0">Resolve customer issues faster</h5>
+                                        </div>
+                                    </div>
+                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="card hover-top shadow-hover-lg">
+                                <div class="card-body p-lg-4">
+                                    <div class="d-flex align-items-center pb-3">
+                                        <div class="icon-lg bg-primary bg-opacity-10 text-primary rounded-3">
+                                            <i class="bi bi-tools"></i>
+                                        </div>
+                                        <div class="col ps-4">
+                                            <h5 class="m-0">Work faster with agency partners</h5>
+                                        </div>
+                                    </div>
+                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section overflow-hidden position-relative">
+                <div class="position-absolute bg-g-efect-1 top-0 start-0 end-0 bottom-0 pe-none">
+                    <div class="position-absolute bg-g-efect-2 top-0 start-0 end-0 bottom-0"></div>
+                </div>
+                <div class="container position-relative">
+                    <div class="row gy-5 justify-content-between">
+                        <div class="col-lg-6 col-xl-5">
+                            <h2 class="display-5 mb-4">Join the <span class="font-alt fst-italic mark">100,000+ organisations</span> working in Connect </h2>
+                            <p class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                            <div class="pt-3">
+                                <a href="#" class="btn btn-hover-icon btn-primary">
+                                    <span class="btn-text">Read More Stories</span>
+                                    <span class="btn-icon"><i class="bi-chevron-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-5">
+                            <div class="swiper swiper-container" data-swiper-options='{
+                                  "slidesPerView": 1,
+                                  "spaceBetween": 24,
+                                  "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "clickable": true
+                                  }
+                                }'>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <div class="card-body p-5 position-relative">
+                                                <div class="position-absolute top-0 end-0 mt-3 ms-3">
+                                                    <i class="bi-quote text-dark display-2 lh-1 opacity-10 m-0"></i>
+                                                </div>
+                                                <h4 class="fw-700 mb-3">It's all about speed</h4>
+                                                <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</div>
+                                                <div class="d-flex align-items-center pt-4">
+                                                    <div class="avatar-lg">
+                                                        <img class="avatar-img rounded-circle" src="../assets/img/avatar/01.jpg" title="" alt="">
+                                                    </div>
+                                                    <div class="col ps-4">
+                                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                                        <label class="fw-600 small m-0">Co-founder</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <div class="card-body p-5 position-relative">
+                                                <div class="position-absolute top-0 end-0 mt-3 ms-3">
+                                                    <i class="bi-quote text-dark display-2 lh-1 opacity-10 m-0"></i>
+                                                </div>
+                                                <h4 class="fw-700 mb-3">It's all about speed</h4>
+                                                <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</div>
+                                                <div class="d-flex align-items-center pt-4">
+                                                    <div class="avatar-lg">
+                                                        <img class="avatar-img rounded-circle" src="../assets/img/avatar/02.jpg" title="" alt="">
+                                                    </div>
+                                                    <div class="col ps-4">
+                                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                                        <label class="fw-600 small m-0">Co-founder</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <div class="card-body p-5 position-relative">
+                                                <div class="position-absolute top-0 end-0 mt-3 ms-3">
+                                                    <i class="bi-quote text-dark display-2 lh-1 opacity-10 m-0"></i>
+                                                </div>
+                                                <h4 class="fw-700 mb-3">It's all about speed</h4>
+                                                <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</div>
+                                                <div class="d-flex align-items-center pt-4">
+                                                    <div class="avatar-lg">
+                                                        <img class="avatar-img rounded-circle" src="../assets/img/avatar/03.jpg" title="" alt="">
+                                                    </div>
+                                                    <div class="col ps-4">
+                                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                                        <label class="fw-600 small m-0">Co-founder</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination position-relative mt-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_software_footer.html',{
+        "path": "",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

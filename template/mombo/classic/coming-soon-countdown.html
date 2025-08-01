@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="nav-item d-none">
+        <button class="dropdown-toggle btn theme-switch-01" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+            <span class="bi theme-icon-active">
+                <i class="bi-circle-half"></i>
+            </span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end  shadow" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                    <span class="bi me-2 opacity-50 theme-icon">
+                        <i class="bi-sun-fill"></i>
+                    </span>
+                    Light
+                    <span class="bi ms-auto d-none">
+                        <i class="bi-check2"></i>
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                    <span class="bi me-2 opacity-50 theme-icon">
+                        <i class="bi-moon-stars-fill"></i>
+                    </span>
+                    Dark
+                    <span class="bi ms-auto d-none">
+                        <i class="bi-check2"></i>
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                    <span class="bi me-2 opacity-50 theme-icon">
+                        <i class="bi-circle-half"></i>
+                    </span>
+                    Auto
+                    <span class="bi ms-auto d-none">
+                        <i class="bi-check2"></i>
+                    </span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <!-- Main -->
+        <main>
+             <!-- Section -->
+             <section class="bg-center bg-cover bg-fiexd effect-section" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                <div class="container">
+                    <div class="row justify-content-center min-vh-100 align-items-center">
+                        <div class="col-lg-8 text-center">
+                            <div class="mb-4">
+                                <img style="height: 50px;" src="../assets/img/logo-light.svg" title="" alt="">
+                            </div>
+                            <h1 class="display-2 text-white mb-3">We're coming soon..</h1>
+                            <p class="h5 text-white text-opacity-65 pb-4 fw-400">Our website is under construction. We'll be here soon with our new awesome site.</p>
+                            <div class="count-down count-down-01 justify-content-center" data-countdown="January 01, 2025 15:00:00"></div>
+                            <div class="pt-6">
+                                <a class="btn btn-light" href="../index.html">Back to Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End section -->
+        </main>
+        <!-- End Main -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

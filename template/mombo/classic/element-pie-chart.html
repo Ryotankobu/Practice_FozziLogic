@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Pie Chart",
+            })
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in" data-size="150" data-percent="77" data-color="#265cdc">
+                                    <span class="middle h3 fw-600 after-p text-mode"></span>
+                                </span>
+                                <h5>Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in" data-size="150" data-percent="80" data-color="#265cdc">
+                                    <span class="middle h3 fw-600 after-p text-mode"></span>
+                                </span>
+                                <h5>Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in" data-size="150" data-percent="40" data-color="#265cdc">
+                                    <span class="middle h3 fw-600 after-p text-mode"></span>
+                                </span>
+                                <h5>Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in" data-size="150" data-percent="87" data-color="#265cdc">
+                                    <span class="middle h3 fw-600 after-p text-mode"></span>
+                                </span>
+                                <h5>Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                    </div> <!-- row -->
+                </div>
+            </section>
+            <!-- End section -->
+            <!-- Section -->
+            <section class="section bg-cover bg-no-repeat bg-center" style="background: url(../assets/img/bg/bg-banner-1.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in h1" data-size="150" data-percent="77" data-color="#fff">
+                                    <i class="bi-behance text-white"></i>
+                                </span>
+                                <h5 class="text-white">Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in h1" data-size="150" data-percent="80" data-color="#fff">
+                                    <i class="bi-behance text-white"></i>
+                                </span>
+                                <h5 class="text-white">Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in h1" data-size="150" data-percent="40" data-color="#fff">
+                                    <i class="bi-behance text-white"></i>
+                                </span>
+                                <h5 class="text-white">Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in h1" data-size="150" data-percent="87" data-color="#fff">
+                                    <i class="bi-behance text-white"></i>
+                                </span>
+                                <h5 class="text-white">Projects</h5>
+                            </div>
+                        </div><!-- col -->
+                    </div> <!-- row -->
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in h1" data-size="150" data-percent="77" data-color="#265cdc">
+                                    <i class="bi-behance text-primary"></i>
+                                </span>
+                                <h5>Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in h1" data-size="150" data-percent="80" data-color="#265cdc">
+                                    <i class="bi-behance text-primary"></i>
+                                </span>
+                                <h5>Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in h1" data-size="150" data-percent="40" data-color="#265cdc">
+                                    <i class="bi-behance text-primary"></i>
+                                </span>
+                                <h5>Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="col-md-6 col-lg-3 col-sm-6 text-center m-15px-tb">
+                            <div class="pie-chart">
+                                <span class="pie_chart_in h1" data-size="150" data-percent="87" data-color="#265cdc">
+                                    <i class="bi-behance text-primary"></i>
+                                </span>
+                                <h5>Projects</h5>
+                            </div>
+                        </div> <!-- col -->
+                    </div> <!-- row -->
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

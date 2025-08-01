@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <div class="header-height-bar"></div>
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top header-height bg-body border-bottom",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main class="bg-cover bg-no-repeat bg-center" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+            <div class="container">
+                <div class="row justify-content-md-end py-12">
+                    <div class="col-md-5 col-xl-4">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <div class="pb-1 text-center">
+                                    <h3 class="mb-2">Sign Up</h3>
+                                    <p>Made with love for designers &amp; developers.</p>
+                                </div>
+                                <form>
+                                    <div class="form-group mb-3">
+                                        <label class="form-label">Name</label>
+                                        <input type="text" class="form-control" placeholder="Rachel Roth">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="form-label">Email address</label>
+                                        <input type="email" class="form-control" placeholder="name@example.com">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="form-label">Password</label>
+                                        <input type="password" class="form-control" placeholder="***********">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                                I agree to the <a href="#">terms and conditions</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="py-2">
+                                        <button class="btn btn-primary w-100">Create account</button>
+                                    </div>
+                                    <div class="py-2 text-center">
+                                        <small>OR</small>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 my-2">
+                                            <a class="btn btn-secondary border w-100" href="#">
+                                                <span class="btn-inner-icon">
+                                                    <i class="bi-github"></i>
+                                                </span>
+                                                <span class="btn-inner-text">
+                                                    Github
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="col-sm-6 my-2">
+                                            <a class="btn btn-secondary border w-100" href="#">
+                                                <span class="btn-inner-icon">
+                                                    <i class="bi-google"></i>
+                                                </span>
+                                                <span class="btn-inner-text">
+                                                    Google
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3 text-center"><small>Already have an acocunt?</small> <a href="login.html" class="small fw-700">Login</a></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

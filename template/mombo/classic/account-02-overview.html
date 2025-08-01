@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <div class="header-height-bar"></div>
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top header-height bg-body border-bottom",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- section -->
+            <section class="pb-4 pt-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header pt-12" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);"></div>
+                                <div class="card-body pt-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center mt-n4">
+                                            <div class="avatar-xl">
+                                                <img class="rounded-circle border border-2 border-white" src="../assets/img/team/team-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3 pt-6">
+                                                <h5 class="m-0">Julia Roberts</h5>
+                                                <span>@Julia</span>
+                                            </div>
+                                        </div>
+                                        <div class="ms-auto d-none d-lg-block">
+                                            <button class="btn btn-primary-soft btn-icon">
+                                                <span class="btn-inner--text">
+                                                    Setting
+                                                </span>
+                                                <i class="bi bi-gear"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex align-items-center d-lg-none">
+                                    <h5 class="m-0">Menu</h5>
+                                    <button class="btn btn-primary ms-auto px-2 py-1 d-inline-flex align-items-center justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-list fs-3 lh-1"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End section -->
+            <!-- Section -->
+            <section class="section pt-0">
+                <div class="container">
+                    <div class="row">
+                        <!-- Sidebar -->
+                        <div class="col-lg-3">
+                            <div class="card collapse d-lg-block mb-4" id="collapseExample">
+                                <div class="card-body">
+                                    <h6 class="text-uppercase small mb-2">Account</h6>
+                                    <ul class="nav nav-sub mb-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="account-overview.html">
+                                                <i class="bi-person-fill nav-icon"></i> Personal info
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="account-security.html">
+                                                <i class="bi-shield-fill nav-icon"></i> Login & security
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="account-notifications.html">
+                                                <i class="bi-bell-fill nav-icon"></i> Notifications
+                                                <span class="badge bg-primary text-white rounded-pill">1</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="text-uppercase small mb-2">Billing</h6>
+                                    <ul class="nav nav-sub">
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="account-payment.html">
+                                                <i class="bi-credit-card nav-icon"></i> Plans &amp; payment
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="account-address.html">
+                                                <i class="bi-map nav-icon"></i> Address
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="account-team.html">
+                                                <i class="bi-person-workspace nav-icon"></i> Teams
+                                                <span class="badge bg-primary text-white rounded-pill">+2 new users</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">
+                                                <i class="bi-lock-fill nav-icon"></i> Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Sidebar -->
+                        <!-- Content -->
+                        <div class="col-lg-9">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <h5 class="m-0">Basic info</h5>
+                                </div>
+                                <form>
+                                    <div class="card-body">
+                                        <div class="row gy-4">
+                                            <div class="col-md-12">
+                                                <div class="row align-items-center">
+                                                    <div class="col-auto">
+                                                        <div class="avatar-xl overflow-hidden rounded-circle">
+                                                            <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <h6 class="mb-0">Your avatar</h6>
+                                                        <span>PNG or JPG no larger than 1000px</span>
+                                                    </div>
+                                                    <div class="col-12 col-md-auto">
+                                                        <!-- Button -->
+                                                        <button class="btn w-100 btn-primary mt-5 mt-md-0">
+                                                            Upload
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label for="name" class="form-label">Name</label>
+                                                    <input class="form-control" type="text" id="name">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label for="Email" class="form-label">Email</label>
+                                                    <input class="form-control" type="email" id="Email">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label for="phone" class="form-label">Phone</label>
+                                                    <input class="form-control" type="text" id="phone">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label for="Email" class="form-label">Gender</label>
+                                                    <div class="input-group input-group-md-down-break">
+                                                        <div class="form-control px-2">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="genderTypeRadio1">
+                                                            <label class="form-check-label stretched-link" for="genderTypeRadio1">
+                                                                Male
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-control px-2">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="genderTypeRadio2">
+                                                            <label class="form-check-label stretched-link" for="genderTypeRadio2">
+                                                                Female
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-control px-2">
+                                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="genderTypeRadio3">
+                                                            <label class="form-check-label stretched-link" for="genderTypeRadio3">
+                                                                Other
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div>
+                                                    <label for="phone" class="form-label">Bio</label>
+                                                    <textarea class="form-control" rows="8"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer d-flex">
+                                        <button class="btn btn-primary me-3">Save Changes</button>
+                                        <button class="btn btn-primary-soft">Cancel</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="card border">
+                                <div class="card-header border-bottom">
+                                    <h5 class="m-0">Address</h5>
+                                </div>
+                                <form>
+                                    <div class="card-body">
+                                        <div class="row gy-4">
+                                            <div class="col-12">
+                                                <div>
+                                                    <label for="name" class="form-label rd-input-label">Address Line 1</label>
+                                                    <input class="form-control" type="text" id="name1">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div>
+                                                    <label for="name" class="form-label rd-input-label">Address Line 2</label>
+                                                    <input class="form-control" type="text" id="name2">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label for="name" class="form-label">Country</label>
+                                                    <select class="form-select">
+                                                        <option>Your country</option>
+                                                        <option>United Kingdom</option>
+                                                        <option>United States</option>
+                                                        <option>Canada</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label for="name" class="form-label">State</label>
+                                                    <select class="form-select">
+                                                        <option>Your State</option>
+                                                        <option>United Kingdom</option>
+                                                        <option>United States</option>
+                                                        <option>Canada</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label for="name" class="form-label rd-input-label">City</label>
+                                                    <input class="form-control" type="text" id="name3">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div>
+                                                    <label for="name" class="form-label rd-input-label">Zip Code</label>
+                                                    <input class="form-control" type="text" id="name4">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer d-flex">
+                                        <button class="btn btn-primary me-3">Save Changes</button>
+                                        <button class="btn btn-primary-soft">Cancel</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

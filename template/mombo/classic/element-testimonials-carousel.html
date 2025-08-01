@@ -1,0 +1,904 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Testimonial Carousel",
+            })
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row justify-content-between wow fadeInLeft" data-wow-duration=".4s" data-wow-delay="0.1s">
+                        <div class="col-lg-5 my-3">
+                            <label class="text-secondary mb-3">Testimonials</label>
+                            <h2 class="mb-4">Loved by businesses, and individuals across the globe.</h2>
+                            <p class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative.</p>
+                            <div class="pt-3">
+                                <a class="btn btn-primary" href="#">More Testimonials</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 my-3 wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.1s">
+                            <div class="swiper swiper-container" data-swiper-options='{
+                                  "slidesPerView": 1,
+                                  "spaceBetween": 24,
+                                  "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "clickable": true
+                                  },
+                                  "breakpoints": {
+                                    "650": {
+                                      "slidesPerView": 2
+                                    },
+                                    "991": {
+                                      "slidesPerView": 2
+                                    }
+                                  }
+                                }'>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card overflow-hidden mb-4">
+                                            <div class="position-relative d-flex align-items-center bg-cover bg-no-repeat card-top-img h-custom" style="--bs-h-custom:150px; background-image: url(../assets/img/team/team-1.jpg);">
+                                                <div class="mask bg-primary opacity-70"></div>
+                                                <div class="position-relative w-100 text-center">
+                                                    <h5 class="text-white m-0 fw-600">Nancy Bayers</h5>
+                                                    <label class="m-0 small text-white">Co-founder</label>
+                                                </div>
+                                            </div>
+                                            <div class="mt-n4 px-4 pb-4 position-relative text-center">
+                                                <div class="icon-md rounded-circle text-white bg-secondary mb-3"><i class="bi bi-quote"></i></div>
+                                                <p class="m-0">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card overflow-hidden mb-4">
+                                            <div class="position-relative d-flex align-items-center bg-cover bg-no-repeat card-top-img h-custom" style="--bs-h-custom:150px; background-image: url(../assets/img/team/team-1.jpg);">
+                                                <div class="mask bg-primary opacity-70"></div>
+                                                <div class="position-relative w-100 text-center">
+                                                    <h5 class="text-white m-0 fw-600">Nancy Bayers</h5>
+                                                    <label class="m-0 small text-white">Co-founder</label>
+                                                </div>
+                                            </div>
+                                            <div class="mt-n4 px-4 pb-4 position-relative text-center">
+                                                <div class="icon-md rounded-circle text-white bg-secondary mb-3"><i class="bi bi-quote"></i></div>
+                                                <p class="m-0">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card overflow-hidden mb-4">
+                                            <div class="position-relative d-flex align-items-center bg-cover bg-no-repeat card-top-img h-custom" style="--bs-h-custom:150px; background-image: url(../assets/img/team/team-1.jpg);">
+                                                <div class="mask bg-primary opacity-70"></div>
+                                                <div class="position-relative w-100 text-center">
+                                                    <h5 class="text-white m-0 fw-600">Nancy Bayers</h5>
+                                                    <label class="m-0 small text-white">Co-founder</label>
+                                                </div>
+                                            </div>
+                                            <div class="mt-n4 px-4 pb-4 position-relative text-center">
+                                                <div class="icon-md rounded-circle text-white bg-secondary mb-3"><i class="bi bi-quote"></i></div>
+                                                <p class="m-0">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination position-relative mt-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s">
+                        <div class="col-lg-8 col-xl-6">
+                            <h3 class="h1 bg-primary-after after-50px pb-3 mb-3">Testimonials</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                                  "slidesPerView": 1,
+                                  "spaceBetween": 24,
+                                  "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "clickable": true
+                                  },
+                                  "breakpoints": {
+                                    "650": {
+                                      "slidesPerView": 2
+                                    },
+                                    "991": {
+                                      "slidesPerView": 2
+                                    },
+                                    "1024": {
+                                      "slidesPerView": 3
+                                    }
+                                  }
+                                }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="border text-center mt-5 mb-4 rounded-3 bg-body">
+                                    <div class="icon-lg bg-secondary text-white rounded-circle mt-n5">
+                                        <i class="bi bi-quote"></i>
+                                    </div>
+                                    <div class="p-4">
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="border text-center mt-5 mb-4 rounded-3 bg-body">
+                                    <div class="icon-lg bg-secondary text-white rounded-circle mt-n5">
+                                        <i class="bi bi-quote"></i>
+                                    </div>
+                                    <div class="p-4">
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="border text-center mt-5 mb-4 rounded-3 bg-body">
+                                    <div class="icon-lg bg-secondary text-white rounded-circle mt-n5">
+                                        <i class="bi bi-quote"></i>
+                                    </div>
+                                    <div class="p-4">
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="border text-center mt-5 mb-4 rounded-3 bg-body">
+                                    <div class="icon-lg bg-secondary text-white rounded-circle mt-n5">
+                                        <i class="bi bi-quote"></i>
+                                    </div>
+                                    <div class="p-4">
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-2"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section effect-section bg-gray-100">
+                <div class="mask mask-40 bg-primary"></div>
+                <div class="container position-relative">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-6">
+                            <h3 class="h1 bg-light-after after-50px pb-3 mb-3 text-white">Testimonials</h3>
+                            <div class="fs-lg text-white-50">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 0,
+                          "loop": true,
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 3
+                            }
+                          },
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section border-bottom">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-7">
+                            <h3 class="h1 bg-primary-after after-50px pb-3 mb-3">What Our Client Say?</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 0,
+                          "loop": true,
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 3
+                            }
+                          },
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-9 col-xl-8 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h6 class="text-primary mb-3">Testimonials</h6>
+                            <h3 class="h1 mb-0">What our customers say?</h3>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 24,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 3
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card mb-4 mx-1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center pb-4">
+                                            <div class="avatar-lg">
+                                                <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h6 class="mb-1">Nancy Drew</h6>
+                                                <small>UI/UX Designer</small>
+                                            </div>
+                                        </div>
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card mb-4 mx-1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center pb-4">
+                                            <div class="avatar-lg">
+                                                <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h6 class="mb-1">Nancy Drew</h6>
+                                                <small>UI/UX Designer</small>
+                                            </div>
+                                        </div>
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card mb-4 mx-1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center pb-4">
+                                            <div class="avatar-lg">
+                                                <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h6 class="mb-1">Nancy Drew</h6>
+                                                <small>UI/UX Designer</small>
+                                            </div>
+                                        </div>
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card mb-4 mx-1">
+                                    <div class="card-body">
+                                        <div class="d-flex align-items-center pb-4">
+                                            <div class="avatar-lg">
+                                                <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h6 class="mb-1">Nancy Drew</h6>
+                                                <small>UI/UX Designer</small>
+                                            </div>
+                                        </div>
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-2"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="mx-lg-10 mx-3 bg-primary section rounded-3 effect-section">
+                <div class="container wow fadeInUp" data-wow-duration="0.5s">
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 24,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 3
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="text-center mb-4">
+                                    <img class="d-inline-block w-custom" style="--bs-w-custom: 150px;" src="../assets/img/brand/airbnb-white.svg" title="" alt="">
+                                    <p class="fs-lg text-white pt-5 pb-2">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    <div class="avatar-lg rounded-circle overflow-hidden d-inline-flex">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" alt="" title="">
+                                    </div>
+                                    <div class="pt-2">
+                                        <h6 class="mb-0 text-white">Dick Grayson</h6>
+                                        <span class="small text-white text-opacity-65">Co-founder, pxdraft</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="text-center mb-4">
+                                    <img class="d-inline-block w-custom" style="--bs-w-custom: 150px;" src="../assets/img/brand/paypal-white.svg" title="" alt="">
+                                    <p class="fs-lg text-white pt-5 pb-2">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    <div class="avatar-lg rounded-circle overflow-hidden d-inline-flex">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" alt="" title="">
+                                    </div>
+                                    <div class="pt-2">
+                                        <h6 class="mb-0 text-white">Dick Grayson</h6>
+                                        <span class="small text-white text-opacity-65">Co-founder, pxdraft</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="text-center mb-4">
+                                    <img class="d-inline-block w-custom" style="--bs-w-custom: 150px;" src="../assets/img/brand/slack-white.svg" title="" alt="">
+                                    <p class="fs-lg text-white pt-5 pb-2">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    <div class="avatar-lg rounded-circle overflow-hidden d-inline-flex">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" alt="" title="">
+                                    </div>
+                                    <div class="pt-2">
+                                        <h6 class="mb-0 text-white">Dick Grayson</h6>
+                                        <span class="small text-white text-opacity-65">Co-founder, pxdraft</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="text-center mb-4">
+                                    <img class="d-inline-block w-custom" style="--bs-w-custom: 150px;" src="../assets/img/brand/spotify-white.svg" title="" alt="">
+                                    <p class="fs-lg text-white pt-5 pb-2">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    <div class="avatar-lg rounded-circle overflow-hidden d-inline-flex">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" alt="" title="">
+                                    </div>
+                                    <div class="pt-2">
+                                        <h6 class="mb-0 text-white">Dick Grayson</h6>
+                                        <span class="small text-white text-opacity-65">Co-founder, pxdraft</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-white position-relative mt-4"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h6 class="text-primary mb-2">Testimonials</h6>
+                            <h3 class="h1 mb-3">Our Satisfied Clients.</h3>
+                            <p class="fs-lg m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 24,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="row g-0 rounded-3 overflow-hidden border mb-4">
+                                    <div class="col-sm-4 d-none d-sm-block">
+                                        <img src="../assets/img/team/team-1.jpg" class="h-100 w-100 object-fit" title="" alt="">
+                                    </div>
+                                    <div class="col-sm-8 p-4">
+                                        <p>I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.</p>
+                                        <h6 class="m-0">Nancy Drew</h6>
+                                        <span>Co-Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row g-0 rounded-3 overflow-hidden border mb-4">
+                                    <div class="col-sm-4 d-none d-sm-block">
+                                        <img src="../assets/img/team/team-1.jpg" class="h-100 w-100 object-fit" title="" alt="">
+                                    </div>
+                                    <div class="col-sm-8 p-4">
+                                        <p>I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.</p>
+                                        <h6 class="m-0">Nancy Drew</h6>
+                                        <span>Co-Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row g-0 rounded-3 overflow-hidden border mb-4">
+                                    <div class="col-sm-4 d-none d-sm-block">
+                                        <img src="../assets/img/team/team-1.jpg" class="h-100 w-100 object-fit" title="" alt="">
+                                    </div>
+                                    <div class="col-sm-8 p-4">
+                                        <p>I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.</p>
+                                        <h6 class="m-0">Nancy Drew</h6>
+                                        <span>Co-Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row g-0 rounded-3 overflow-hidden border mb-4">
+                                    <div class="col-sm-4 d-none d-sm-block">
+                                        <img src="../assets/img/team/team-1.jpg" class="h-100 w-100 object-fit" title="" alt="">
+                                    </div>
+                                    <div class="col-sm-8 p-4">
+                                        <p>I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.</p>
+                                        <h6 class="m-0">Nancy Drew</h6>
+                                        <span>Co-Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <h6 class="text-primary mb-2">Testimonials</h6>
+                            <h3 class="h1 mb-3">Our Satisfied Clients.</h3>
+                            <p class="fs-lg m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 24,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card mb-4">
+                                    <div class="card-body p-5 text-center shadow">
+                                        <p class="fs-lg">I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.
+                                        </p>
+                                        <div class="text-center pt-4">
+                                            <div class="avatar-xl rounded-circle overflow-hidden d-inline-flex">
+                                                <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <h6 class="m-0">Nancy Drew</h6>
+                                            <span>Co-Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card mb-4">
+                                    <div class="card-body p-5 text-center shadow">
+                                        <p class="fs-lg">I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.
+                                        </p>
+                                        <div class="text-center pt-4">
+                                            <div class="avatar-xl rounded-circle overflow-hidden d-inline-flex">
+                                                <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <h6 class="m-0">Nancy Drew</h6>
+                                            <span>Co-Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card mb-4">
+                                    <div class="card-body p-5 text-center shadow">
+                                        <p class="fs-lg">I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.
+                                        </p>
+                                        <div class="text-center pt-4">
+                                            <div class="avatar-xl rounded-circle overflow-hidden d-inline-flex">
+                                                <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <h6 class="m-0">Nancy Drew</h6>
+                                            <span>Co-Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 text-center wow fadeInUp" data-wow-duration="0.5s">
+                            <h3 class="h1 mb-3">What client says?</h3>
+                            <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 24,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 1
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 2
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="d-flex rounded-3 overflow-hidden shadow border">
+                                    <div class="col-4">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="" class="w-100 h-100 object-fit">
+                                    </div>
+                                    <div class="col-8 p-4">
+                                        <h6 class="m-0">Shoko Mugikura</h6>
+                                        <span class="small">Graphic Designer</span>
+                                        <p class="m-0 pt-3 fs-lg">I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-flex rounded-3 overflow-hidden shadow border">
+                                    <div class="col-4">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="" class="w-100 h-100 object-fit">
+                                    </div>
+                                    <div class="col-8 p-4">
+                                        <h6 class="m-0">Shoko Mugikura</h6>
+                                        <span class="small">Graphic Designer</span>
+                                        <p class="m-0 pt-3 fs-lg">I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="d-flex rounded-3 overflow-hidden shadow border">
+                                    <div class="col-4">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="" class="w-100 h-100 object-fit">
+                                    </div>
+                                    <div class="col-8 p-4">
+                                        <h6 class="m-0">Shoko Mugikura</h6>
+                                        <span class="small">Graphic Designer</span>
+                                        <p class="m-0 pt-3 fs-lg">I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center section-heading">
+                        <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                            <h6 class="text-primary mb-3">Testimonials</h6>
+                            <h3 class="h1 mb-3">What our customers say?</h3>
+                            <p class="fs-lg m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp lightbox-gallery" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 0,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 3
+                            }
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="mx-3">
+                                    <div class="card card-body">
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                    <div class="text-center pt-3">
+                                        <div class="avatar-lg mx-auto mb-3">
+                                            <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                        </div>
+                                        <h6 class="mb-0">Nancy Drew</h6>
+                                        <small>UI/UX Designer</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="mx-3">
+                                    <div class="card card-body">
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                    <div class="text-center pt-3">
+                                        <div class="avatar-lg mx-auto mb-3">
+                                            <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                        </div>
+                                        <h6 class="mb-0">Nancy Drew</h6>
+                                        <small>UI/UX Designer</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="mx-3">
+                                    <div class="card card-body">
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                    <div class="text-center pt-3">
+                                        <div class="avatar-lg mx-auto mb-3">
+                                            <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                        </div>
+                                        <h6 class="mb-0">Nancy Drew</h6>
+                                        <small>UI/UX Designer</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="mx-3">
+                                    <div class="card card-body">
+                                        <p class="m-0">I wanted to move from Wordpress to an HTML site for page load speed reasons. After looking at a dozen packages, I decided "Tony" had what I needed.</p>
+                                    </div>
+                                    <div class="text-center pt-3">
+                                        <div class="avatar-lg mx-auto mb-3">
+                                            <img class="avatar-img rounded-circle" src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                        </div>
+                                        <h6 class="mb-0">Nancy Drew</h6>
+                                        <small>UI/UX Designer</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

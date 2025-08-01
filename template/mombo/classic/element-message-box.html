@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Message Box",
+            })
+             <!-- Section -->
+            <div class="section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="alert alert-primary" role="alert">
+                                A simple primary alert—check it out!
+                            </div>
+                            <div class="alert alert-secondary" role="alert">
+                                A simple secondary alert—check it out!
+                            </div>
+                            <div class="alert alert-success" role="alert">
+                                A simple success alert—check it out!
+                            </div>
+                            <div class="alert alert-danger" role="alert">
+                                A simple danger alert—check it out!
+                            </div>
+                            <div class="alert alert-warning" role="alert">
+                                A simple warning alert—check it out!
+                            </div>
+                            <div class="alert alert-info" role="alert">
+                                A simple info alert—check it out!
+                            </div>
+                            <div class="alert alert-light" role="alert">
+                                A simple light alert—check it out!
+                            </div>
+                            <div class="alert alert-dark" role="alert">
+                                A simple dark alert—check it out!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End section -->
+            <!-- Section -->
+            <div class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="alert alert-primary" role="alert">
+                                A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                            </div>
+                            <div class="alert alert-secondary" role="alert">
+                                A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                            </div>
+                            <div class="alert alert-success" role="alert">
+                                A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                            </div>
+                            <div class="alert alert-danger" role="alert">
+                                A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                            </div>
+                            <div class="alert alert-warning" role="alert">
+                                A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                            </div>
+                            <div class="alert alert-info" role="alert">
+                                A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                            </div>
+                            <div class="alert alert-light" role="alert">
+                                A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                            </div>
+                            <div class="alert alert-dark" role="alert">
+                                A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+            <!-- Section -->
+            <div class="section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-light alert-dismissible fade show" role="alert">
+                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            <div class="alert alert-dark alert-dismissible fade show" role="alert">
+                                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+            <!-- Section -->
+            <div class="section bg-gray-100">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="alert alert-primary" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+                            <div class="alert alert-secondary" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+                            <div class="alert alert-success" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+                            <div class="alert alert-danger" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+                            <div class="alert alert-warning" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+                            <div class="alert alert-info" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+                            <div class="alert alert-dark" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+                            <div class="alert alert-light" role="alert">
+                                <h4 class="alert-heading">Well done!</h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

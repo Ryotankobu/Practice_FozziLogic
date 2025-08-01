@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+    "path": "",
+    "FontsURL":
+    "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+    "CSSName": "style",
+    })
+    <link rel="stylesheet" type="text/css" href="../assets/css/scroll.css">
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header-main header-classic headroom navbar-light fixed-top">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container position-relative">
+                    <!-- Logo -->
+                    <a class="navbar-brand header-navbar-brand" href="../index.html">
+                        <img class="logo-dark" src="../assets/img/logo.svg" title="" alt="">
+                        <img class="logo-light" src="../assets/img/logo-light.svg" title="" alt="">
+                    </a>
+                    <!-- Logo -->
+                    
+                    <!-- Menu -->
+                    <div class="collapse navbar-collapse one-page-nav" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="0" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="1" class="nav-link">Feature</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="2" class="nav-link">Screenshot</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="3" class="nav-link">Price</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);" data-scroll-nav="4" class="nav-link">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Menu -->
+                    <div class="nav align-items-center">
+                        <div class="nav-item dropdown me-3">
+                            <button class="dropdown-toggle btn theme-switch-01" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+                                <span class="bi theme-icon-active">
+                                    <i class="bi-circle-half"></i>
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end  shadow" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-sun-fill"></i>
+                                        </span>
+                                        Light
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-moon-stars-fill"></i>
+                                        </span>
+                                        Dark
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                                        <span class="bi me-2 opacity-50 theme-icon">
+                                            <i class="bi-circle-half"></i>
+                                        </span>
+                                        Auto
+                                        <span class="bi ms-auto d-none">
+                                            <i class="bi-check2"></i>
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-sm btn-secondary mb-0 ms-2 text-nowrap d-none d-lg-flex">Login</a>
+                        <!-- Mobile Toggle -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                        </button>
+                        <!-- End Mobile Toggle -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Home Banner -->
+            <section data-scroll-index="0" class="effect-section">
+                <div class="container position-relative">
+                    <div class="row align-items-center min-vh-100 pt-8">
+                        <div class="col-lg-6 pe-xl-12 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <span class="bg-warning px-3 py-1 rounded-pill small text-white me-2">- Build like a Pro</span>
+                            <h1 class="display-4 mb-4 mt-4">Welcome to Mombo Digital Marketing</h1>
+                            <p class="fs-5">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <div class="pt-4">
+                                <a class="btn btn-primary shadow btn-lg me-3" href="#">
+                                    <i class="bi-google me-2"></i> Google Play
+                                </a>
+                                <a class="btn btn-dark shadow btn-lg" href="#">
+                                    <i class="bi-apple me-2"></i> App Store
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img class="lg-img-120" src="../assets/img/home-banner/home-banner.jpg" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Home Banner -->
+            <!-- Section -->
+            <section data-scroll-index="1" class="section border-top border-bottom bg-gray-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 my-3  wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <span class="bg-primary bg-opacity-10 px-3 py-1 rounded small text-primary">- Build like a Pro</span>
+                            <h3 class="h1 mt-3 mb-3">Awesome App Features</h3>
+                            <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <div class="pt-2">
+                                <a class="link-effect fw-600" href="#">View Details</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 ps-xl-8 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="row gy-4">
+                                <div class="col-sm-6">
+                                    <div class="card card-body shadow">
+                                        <div class="d-flex">
+                                            <div class="icon-lg bg-primary text-white rounded-circle">
+                                                <i class="bi bi-braces"></i>
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h5>Clean Design</h5>
+                                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card card-body shadow">
+                                        <div class="d-flex">
+                                            <div class="icon-lg bg-primary text-white rounded-circle">
+                                                <i class="bi bi-circle-square"></i>
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h5>Customizable</h5>
+                                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card card-body shadow">
+                                        <div class="d-flex">
+                                            <div class="icon-lg bg-primary text-white rounded-circle">
+                                                <i class="bi bi-laptop"></i>
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h5>Fully Responsive</h5>
+                                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card card-body shadow">
+                                        <div class="d-flex">
+                                            <div class="icon-lg bg-primary text-white rounded-circle">
+                                                <i class="bi bi-nut-fill"></i>
+                                            </div>
+                                            <div class="col ps-3">
+                                                <h5>Retina Ready</h5>
+                                                <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section border-bottom">
+                <div class="container">
+                    <div class="row justify-content-around align-items-center">
+                        <div class="col-lg-5 pe-xl-8 my-3 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h2 class="mb-3">Make Your Softwer Quick &amp; Faster!</h2>
+                            <p class="mb-3 fs-lg">Momboo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li class="d-flex py-1"><i class="bi-check-circle-fill text-secondary me-2"></i> We assist efficient business management</li>
+                                <li class="d-flex py-1"><i class="bi-check-circle-fill text-secondary me-2"></i> We identify your requirements and design an ideal relationship structure to fit your needs</li>
+                                <li class="d-flex py-1"><i class="bi-check-circle-fill text-secondary me-2"></i> Our latest thinking on the issues that matter most in business</li>
+                            </ul>
+                            <div class="mt-4">
+                                <a class="btn btn-primary" href="#">More About</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 my-3 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/about/about-1.jpg" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section border-bottom">
+                <div class="container">
+                    <div class="row justify-content-around align-items-center flex-row-reverse">
+                        <div class="col-lg-5 pe-xl-8 my-3 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h2 class="mb-3">Make Your Softwer Quick &amp; Faster!</h2>
+                            <p class="mb-3 fs-lg">Momboo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li class="d-flex py-1"><i class="bi-check-circle-fill text-secondary me-2"></i> We assist efficient business management</li>
+                                <li class="d-flex py-1"><i class="bi-check-circle-fill text-secondary me-2"></i> We identify your requirements and design an ideal relationship structure to fit your needs</li>
+                                <li class="d-flex py-1"><i class="bi-check-circle-fill text-secondary me-2"></i> Our latest thinking on the issues that matter most in business</li>
+                            </ul>
+                            <div class="mt-4">
+                                <a class="btn btn-primary" href="#">More About</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 my-3 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/about/about-1.jpg" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section data-scroll-index="2" class="section bg-gray-100 border-bottom">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-7">
+                            <h3 class="h1 title-03 pb-3 mb-3">Amazing App Screen</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.2s" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 0,
+                          "loop": true,
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 3
+                            },
+                            "1200": {
+                              "slidesPerView": 4
+                            }
+                          },
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="shadow-sm overflow-hidden rounded m-2">
+                                    <img src="../assets/img/ss/app-ss-1.jpg" title="" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow-sm overflow-hidden rounded m-2">
+                                    <img src="../assets/img/ss/app-ss-1.jpg" title="" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow-sm overflow-hidden rounded m-2">
+                                    <img src="../assets/img/ss/app-ss-1.jpg" title="" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow-sm overflow-hidden rounded m-2">
+                                    <img src="../assets/img/ss/app-ss-1.jpg" title="" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section data-scroll-index="3" class="section border-bottom">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-7">
+                            <h3 class="h1 title-03 pb-3 mb-3">Choose your pricing</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3 my-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card bg-body shadow hover-top">
+                                <div class="card-body py-6">
+                                    <div class="pb-4">
+                                        <h5 class="mb-3">Personal</h5>
+                                        <h4 class="display-4 mb-3">$49</h4>
+                                        <span class="bg-gray-200 d-inline-block px-3 px-2 rounded text-mode fw-700">Monthly</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <div class="pt-5">
+                                        <a class="btn btn-primary w-100" href="#">Let's Start</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 my-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                            <div class="card bg-primary shadow hover-top">
+                                <div class="card-body py-6">
+                                    <div class="pb-4">
+                                        <h5 class="mb-3 text-white">Personal</h5>
+                                        <h4 class="display-4 mb-3 text-white">$49</h4>
+                                        <span class="bg-gray-200 d-inline-block px-3 px-2 rounded text-mode fw-700">Monthly</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-0 text-white">
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <div class="pt-5">
+                                        <a class="btn btn-outline-light w-100" href="#">Let's Start</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 my-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.20s">
+                            <div class="card bg-body shadow hover-top">
+                                <div class="card-body py-6">
+                                    <div class="pb-4">
+                                        <h5 class="mb-3">Personal</h5>
+                                        <h4 class="display-4 mb-3">$49</h4>
+                                        <span class="bg-gray-200 d-inline-block px-3 px-2 rounded text-mode fw-700">Monthly</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <div class="pt-5">
+                                        <a class="btn btn-primary w-100" href="#">Let's Start</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 my-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                            <div class="card bg-body shadow hover-top">
+                                <div class="card-body py-6">
+                                    <div class="pb-4">
+                                        <h5 class="mb-3">Personal</h5>
+                                        <h4 class="display-4 mb-3">$49</h4>
+                                        <span class="bg-gray-200 d-inline-block px-3 px-2 rounded text-mode fw-700">Monthly</span>
+                                    </div>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> 10 GB of Space </li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Projects</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Users</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited Datas</li>
+                                        <li class="py-2"><i class="bi-check-circle-fill text-secondary me-1"></i> Unlimited File Recovery</li>
+                                    </ul>
+                                    <div class="pt-5">
+                                        <a class="btn btn-primary w-100" href="#">Let's Start</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section border-bottom bg-gray-100">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-7">
+                            <h3 class="h1 title-03 pb-3 mb-3">What Our Client Say?</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="swiper swiper-container" data-swiper-options='{
+                          "slidesPerView": 1,
+                          "spaceBetween": 0,
+                          "loop": true,
+                          "breakpoints": {
+                            "650": {
+                              "slidesPerView": 2
+                            },
+                            "991": {
+                              "slidesPerView": 2
+                            },
+                            "1024": {
+                              "slidesPerView": 3
+                            }
+                          },
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "clickable": true
+                          }
+                        }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="shadow bg-body rounded-3 px-4 px-lg-7 py-6 text-center mx-3 mb-4">
+                                    <div class="avatar-xl d-inline-block rounded-circle overflow-hidden">
+                                        <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="mt-n4 position-relative text-center">
+                                        <div class="icon-sm text-white bg-secondary rounded-circle mb-3"><i class="bi-quote"></i></div>
+                                        <p>Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                                        <h5 class="h6 m-0">Nancy Bayers</h5>
+                                        <label class="fw-600 small m-0">Co-founder</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section data-scroll-index="4" class="section">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-7">
+                            <h3 class="h1 title-03 pb-3 mb-3">Our experience experts</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-7">
+                            <form class="d-flex flex-row mb-2 p-1 bg-body input-group border">
+                                <input type="email" class="form-control form-control-lg rounded-0 border-0 shadow-none" placeholder="you@yoursite.com">
+                                <button class="btn btn-primary rounded-0 flex-shrink-0" type="submit">Get Started</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_04.html', {
+        "path": ".",
+        "imgPath": "../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Team Carousel",
+            })
+            <!-- Section -->
+            <div class="section bg-gray-100">
+                <div class="container">
+                    <div class="swiper swiper-container" data-swiper-options='{
+                                  "slidesPerView": 1,
+                                  "spaceBetween": 24,
+                                  "loop": true,
+                                  "pagination": {
+                                    "el": ".swiper-pagination",
+                                    "clickable": true
+                                  },
+                                  "breakpoints": {
+                                    "650": {
+                                      "slidesPerView": 2
+                                    },
+                                    "991": {
+                                      "slidesPerView": 3
+                                    },
+                                    "1024": {
+                                      "slidesPerView": 4
+                                    }
+                                  }
+                                }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="p-3 bg-body shadow shadow-lg-hover">
+                                    <div class="">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="pt-3">
+                                        <h6 class="fw-700 dark-color mb-1">Nancy Bayers</h6>
+                                        <small>Co-Founder</small>
+                                        <div class="pt-2">
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-facebook"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-twitter"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-linkedin"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-3 bg-body shadow shadow-lg-hover">
+                                    <div class="">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="pt-3">
+                                        <h6 class="fw-700 dark-color mb-1">Nancy Bayers</h6>
+                                        <small>Co-Founder</small>
+                                        <div class="pt-2">
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-facebook"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-twitter"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-linkedin"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-3 bg-body shadow shadow-lg-hover">
+                                    <div class="">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="pt-3">
+                                        <h6 class="fw-700 dark-color mb-1">Nancy Bayers</h6>
+                                        <small>Co-Founder</small>
+                                        <div class="pt-2">
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-facebook"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-twitter"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-linkedin"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-3 bg-body shadow shadow-lg-hover">
+                                    <div class="">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="pt-3">
+                                        <h6 class="fw-700 dark-color mb-1">Nancy Bayers</h6>
+                                        <small>Co-Founder</small>
+                                        <div class="pt-2">
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-facebook"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-twitter"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-linkedin"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-3 bg-body shadow shadow-lg-hover">
+                                    <div class="">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="pt-3">
+                                        <h6 class="fw-700 dark-color mb-1">Nancy Bayers</h6>
+                                        <small>Co-Founder</small>
+                                        <div class="pt-2">
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-facebook"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-twitter"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-linkedin"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-3 bg-body shadow shadow-lg-hover">
+                                    <div class="">
+                                        <img src="../assets/img/team/team-1.jpg" title="" alt="">
+                                    </div>
+                                    <div class="pt-3">
+                                        <h6 class="fw-700 dark-color mb-1">Nancy Bayers</h6>
+                                        <small>Co-Founder</small>
+                                        <div class="pt-2">
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-facebook"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-twitter"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-linkedin"></i></a>
+                                            <a class="icon-sm bg-secondary rounded-circle text-white me-1" href="#"><i class="bi-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination position-relative mt-4"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

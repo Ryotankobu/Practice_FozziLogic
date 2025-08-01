@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+    "path": "",
+    "FontsURL":
+    "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+    "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+        "path": "..",
+        "imgPath": "../../assets",
+        "HeaderClass": "navbar-light fixed-top navbar-transparent",
+        "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Home Banner -->
+            <section class="section bg-primary effect-section">
+                <!-- @s BG Effect -->
+                <div class="pe-none position-absolute start-0 top-0 mx-auto mt-n5 ms-n5 mt-lg-n10 ms-lg-n10 w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 200px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 192" fill="none" class="text-warning w-100">
+                        <path d="M49.234 40.7275C50.7799 37.5066 53.9267 35.3552 57.489 35.0836L119.332 30.3681C122.895 30.0965 126.331 31.746 128.348 34.6952L163.353 85.8953C165.369 88.8446 165.659 92.6455 164.113 95.8664L137.275 151.782C135.729 155.003 132.583 157.154 129.02 157.426L67.177 162.141C63.6147 162.413 60.178 160.763 58.1617 157.814L23.1563 106.614C21.1399 103.665 20.8501 99.8639 22.396 96.6431L49.234 40.7275Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <div class="pe-none position-absolute end-0 bottom-0 me-n4 mb-n4 me-lg-n8 mb-lg-n8 w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 150px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 192" fill="none" class="text-warning">
+                        <path d="M49.234 40.7275C50.7799 37.5066 53.9267 35.3552 57.489 35.0836L119.332 30.3681C122.895 30.0965 126.331 31.746 128.348 34.6952L163.353 85.8953C165.369 88.8446 165.659 92.6455 164.113 95.8664L137.275 151.782C135.729 155.003 132.583 157.154 129.02 157.426L67.177 162.141C63.6147 162.413 60.178 160.763 58.1617 157.814L23.1563 106.614C21.1399 103.665 20.8501 99.8639 22.396 96.6431L49.234 40.7275Z" fill="currentColor"></path>
+                    </svg>
+                </div>
+                <img class="position-absolute bottom-0 start-0 pe-none w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 250px;" src="../assets/img/effect/polygon-03.png" title="" alt="">
+                <img class="position-absolute top-0 end-0 pe-none w-custom w-lg-custom" style="--bs-w-custom: 100px; --bs-w-lg-custom: 150px;" src="../assets/img/effect/polygon-04.png" title="" alt="">
+                <!-- @E BG Effect -->
+                <div class="container position-relative">
+                    <div class="row justify-content-center pt-10">
+                        <div class="col-lg-9 col-xl-7 text-center pt-6 wow fadeInUp" data-wow-duration="0.5s">
+                            <h1 class="display-3 text-white mb-3">Drive More Customers Through Digital</h1>
+                            <p class="fs-lg text-white text-opacity-65">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                        </div>
+                        <div class="col-12 text-center pt-4 wow fadeInUp" data-wow-duration="0.5s">
+                            <img src="../assets/img/home-banner/home-banner.jpg" title="" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Home Banner -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s">
+                        <div class="col-lg-8 col-xl-6">
+                            <h3 class="h1 bg-primary-after mb-3">How does it work?</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="shadow-sm shadow-hover hover-top py-6 px-4 text-center border-bottom border-5 border-secondary rounded-3">
+                                <div class="icon-xl rounded-circle bg-secondary text-white mb-4">
+                                    <i class="bi-laptop"></i>
+                                </div>
+                                <h5 class="h6 mb-3">Web Development</h5>
+                                <p class="m-0">Momboo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.20s">
+                            <div class="shadow-sm shadow-hover hover-top py-6 px-4 text-center rounded-3 bg-primary">
+                                <div class="icon-xl rounded-circle bg-secondary text-white mb-4">
+                                    <i class="bi-tools"></i>
+                                </div>
+                                <h5 class="text-white h6 mb-3">Logo &amp; Identity</h5>
+                                <p class="m-0 text-white text-opacity-65">Momboo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.30s">
+                            <div class="shadow-sm shadow-hover hover-top py-6 px-4 text-center border-bottom border-5 border-secondary rounded-3">
+                                <div class="icon-xl rounded-circle bg-secondary text-white mb-4">
+                                    <i class="bi-command"></i>
+                                </div>
+                                <h5 class="h6 mb-3">Graphics Design</h5>
+                                <p class="m-0">Momboo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section border-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 my-3 text-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                        </div>
+                        <div class="col-lg-5 me-lg-auto my-3 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="icon-xl rounded-circle bg-warning text-white mb-4">
+                                <i class="bi-laptop"></i>
+                            </div>
+                            <h2 class="mb-4">Marketing experts are ready to helps</h2>
+                            <p class="fs-lg">Momboo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="pt-2">
+                                <a class="btn btn-primary" href="#">More About</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section border-top">
+                <div class="container">
+                    <div class="row align-items-center flex-row-reverse">
+                        <div class="col-lg-6 my-3 text-center wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                        </div>
+                        <div class="col-lg-5 me-lg-auto my-3 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="icon-xl rounded-circle bg-warning text-white mb-4">
+                                <i class="bi-laptop"></i>
+                            </div>
+                            <h2 class="mb-4">Marketing experts are ready to helps</h2>
+                            <p class="fs-lg">Momboo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="pt-2">
+                                <a class="btn btn-primary" href="#">More About</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-gray-100">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-6">
+                            <h3 class="h1 bg-primary-after mb-3">Your enterprise carrier</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card card-body hover-top">
+                                <div class="icon-lg text-white bg-success rounded">
+                                    <i class="bi bi-graph-up"></i>
+                                </div>
+                                <div class="pt-4">
+                                    <h5 class="h6 mb-2">Mail Metrics Receive</h5>
+                                    <p class="m-0">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                            <div class="card card-body hover-top">
+                                <div class="icon-lg text-white bg-danger rounded">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <div class="pt-4">
+                                    <h5 class="h6 mb-2">Mail Metrics Receive</h5>
+                                    <p class="m-0">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.20s">
+                            <div class="card card-body hover-top">
+                                <div class="icon-lg text-white bg-warning rounded">
+                                    <i class="bi bi-life-preserver"></i>
+                                </div>
+                                <div class="pt-4">
+                                    <h5 class="h6 mb-2">Mail Metrics Receive</h5>
+                                    <p class="m-0">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                            <div class="card card-body hover-top">
+                                <div class="icon-lg text-white bg-info rounded">
+                                    <i class="bi bi-check"></i>
+                                </div>
+                                <div class="pt-4">
+                                    <h5 class="h6 mb-2">Mail Metrics Receive</h5>
+                                    <p class="m-0">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center">
+                        <div class="col-lg-8 col-xl-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h3 class="h1 bg-primary-after mb-3">Choose your Plan</h3>
+                            <div class="fs-lg">Mombo is a HTML5 template based on Sass and Bootstrap 5 with modern and creative multipurpose design you can use it as a startups.</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Price Box -->
+                        <div class="col-md-4 my-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="card shadow-hover hover-top">
+                                <div class="border-bottom pb-4 mb-4 text-center pt-5">
+                                    <h3>Education</h3>
+                                    <p>Create your first online course</p>
+                                    <div class="avatar-xl d-inline-block">
+                                        <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                                    </div>
+                                    <div class="price mt-3 h1">
+                                        $49.00
+                                    </div>
+                                </div>
+                                <div class="pt-body text-center">
+                                    <ul class="list-unstyled">
+                                        <li class="py-2">Only 2 Operators Only</li>
+                                        <li class="py-2">Abandoned Cart</li>
+                                        <li class="py-2">Facebook &amp; Instagram Ads</li>
+                                        <li class="py-2">Order Notifications</li>
+                                        <li class="py-2">Landing Pages</li>
+                                    </ul>
+                                </div>
+                                <div class="pb-5 text-center pt-3">
+                                    <a class="btn btn-primary" href="#">Purchase</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Price Box -->
+                        <!-- Price Box -->
+                        <div class="col-md-4 my-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                            <div class="card shadow-hover hover-top">
+                                <div class="border-bottom pb-4 mb-4 text-center pt-5">
+                                    <h3>Standard</h3>
+                                    <p>Create your first online course</p>
+                                    <div class="avatar-xl d-inline-block">
+                                        <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                                    </div>
+                                    <div class="price mt-3 h1">
+                                        $49.00
+                                    </div>
+                                </div>
+                                <div class="pt-body text-center">
+                                    <ul class="list-unstyled">
+                                        <li class="py-2">Only 2 Operators Only</li>
+                                        <li class="py-2">Abandoned Cart</li>
+                                        <li class="py-2">Facebook &amp; Instagram Ads</li>
+                                        <li class="py-2">Order Notifications</li>
+                                        <li class="py-2">Landing Pages</li>
+                                    </ul>
+                                </div>
+                                <div class="pb-5 text-center pt-3">
+                                    <a class="btn btn-primary" href="#">Purchase</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Price Box -->
+                        <!-- Price Box -->
+                        <div class="col-md-4 my-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.20s">
+                            <div class="card shadow-hover hover-top">
+                                <div class="border-bottom pb-4 mb-4 text-center pt-5">
+                                    <h3>Business</h3>
+                                    <p>Create your first online course</p>
+                                    <div class="avatar-xl d-inline-block">
+                                        <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                                    </div>
+                                    <div class="price mt-3 h1">
+                                        $49.00
+                                    </div>
+                                </div>
+                                <div class="pt-body text-center">
+                                    <ul class="list-unstyled">
+                                        <li class="py-2">Only 2 Operators Only</li>
+                                        <li class="py-2">Abandoned Cart</li>
+                                        <li class="py-2">Facebook &amp; Instagram Ads</li>
+                                        <li class="py-2">Order Notifications</li>
+                                        <li class="py-2">Landing Pages</li>
+                                    </ul>
+                                </div>
+                                <div class="pb-5 text-center pt-3">
+                                    <a class="btn btn-primary" href="#">Purchase</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Price Box -->
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- End Section -->
+            <section class="section pb-0 bg-gray-100">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 text-center d-none d-md-block wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <img src="../assets/img/about/about-1.jpg" title="" alt="">
+                        </div>
+                        <div class="col-md-6 col-xl-4">
+                            <div class="card card-body shadow border-0 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                                <div class="rounded-circle icon-lg bg-primary text-white mb-5">
+                                    <i class="bi-quote"></i>
+                                </div>
+                                <p class="fs-lg">This theme aute irure dolor in reprehe erit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur for the life sint occaecat cupidatat non proident, sunt in culpa qui officia de est laborum.</p>
+                                <div class="pt-2">
+                                    <h6 class="m-0">Dick Grayson</h6>
+                                    <label class="small">Co-founder of PxDraft</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row section-heading justify-content-center text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <div class="col-lg-8 col-xl-7">
+                            <label class="border-bottom border-2 h6 text-primary border-secondary">Blogs</label>
+                            <h3 class="h1 m-0">Daily Updates</h3>
+                        </div>
+                    </div>
+                    <div class="row gy-4">
+                        <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="position-relative">
+                                <div class="">
+                                    <img class="rounded" src="../assets/img/blog/blog-1.jpg" title="" alt="">
+                                </div>
+                                <div class="pt-4">
+                                    <span class="small">02 Mar 2020</span>
+                                    <h5 class="pt-2">
+                                        <a class="text-reset" href="#">Make your Marketing website</a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <a class="btn btn-sm btn-primary stretched-link" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="position-relative">
+                                <div class="">
+                                    <img class="rounded" src="../assets/img/blog/blog-1.jpg" title="" alt="">
+                                </div>
+                                <div class="pt-4">
+                                    <span class="small">02 Mar 2020</span>
+                                    <h5 class="pt-2">
+                                        <a class="text-reset" href="#">Make your Marketing website</a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <a class="btn btn-sm btn-primary stretched-link" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="position-relative">
+                                <div class="">
+                                    <img class="rounded" src="../assets/img/blog/blog-1.jpg" title="" alt="">
+                                </div>
+                                <div class="pt-4">
+                                    <span class="small">02 Mar 2020</span>
+                                    <h5 class="pt-2">
+                                        <a class="text-reset" href="#">Make your Marketing website</a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <a class="btn btn-sm btn-primary stretched-link" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="position-relative">
+                                <div class="">
+                                    <img class="rounded" src="../assets/img/blog/blog-1.jpg" title="" alt="">
+                                </div>
+                                <div class="pt-4">
+                                    <span class="small">02 Mar 2020</span>
+                                    <h5 class="pt-2">
+                                        <a class="text-reset" href="#">Make your Marketing website</a>
+                                    </h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <a class="btn btn-sm btn-primary stretched-link" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section bg-cover bg-no-repeat bg-center" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-5 col-xl-4 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <h3 class="h1 title-03 pb-3 mb-3 text-white" style="--bs-title-03: #fff;">You deserve all time best</h3>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                            <div class="p-4 bg-body shadow rounded">
+                                <h5 class="h6 mb-3">Send a message</h5>
+                                <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="../assets/vendor/mail/bat/rd-mailform.php" novalidate="novalidate">
+                                    <div class="form-group mb-3">
+                                        <input id="contact-name" type="text" name="name" placeholder="Name" data-constraints="@Required" class="form-control form-control-sm form-control-has-validation form-control-last-child">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <input id="contact-email" type="email" name="email" placeholder="Email" data-constraints="@Required" class="form-control form-control-sm form-control-has-validation form-control-last-child">
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <textarea class="form-control form-control-has-validation form-control-last-child" id="contact-message" name="message" rows="4" placeholder="Your Comments" data-constraints="@Required"></textarea>
+                                    </div>
+                                    <div class="form-action">
+                                        <button class="btn btn-sm btn-primary" type="submit" name="send">Get in touch</button>
+                                        <div class="snackbars" id="form-output-global"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_01.html', {
+        "path": ".",
+        "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

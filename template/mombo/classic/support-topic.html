@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- Section -->
+            <section class="section bg-cover bg-no-repeat effect-section" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                <div class="container position-relative">
+                    <div class="header-height-bar"></div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-xl-7 text-center">
+                            <h2 class="text-white h1 mb-3">How can we help?</h2>
+                            <p class="text-white text-opacity-65 fs-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+                            <form class="d-flex flex-column flex-md-row mt-4">
+                                <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="you@yoursite.com">
+                                <button class="btn btn-outline-light flex-shrink-0" type="submit">Get Started</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="row align-items-start">
+                        <div class="col-lg-8 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="mb-6">
+                                        <h3 class="h4">How do I purchase an item?</h3>
+                                        <p>How Mombo works, what it can do for your business and what makes it different to other solutions.</p>
+                                        <div class="d-flex align-items-center mt-5">
+                                            <div class="avatar overflow-hidden rounded-circle">
+                                                <img src="../assets/img/avatar/avatar-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="ps-3 col">
+                                                <p class="h6 m-0">Nancy Bayers</p>
+                                                <small>Co-Founder</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <h5 class="pt-3 mb-3">What are my payment options?</h5>
+                                    <ul class="list-type-05">
+                                        <li>Your bank account or credit/debit card via PayPal.</li>
+                                        <li>Skrill (available for non US customers only)</li>
+                                        <li>Your Visa or Mastercard.</li>
+                                        <li>Mombo credit (existing credit only, no further purchases of credits are available).</li>
+                                    </ul>
+                                    <div class="fs-lg bg-gray-100 p-3 border-left border-3 border-primary my-5">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.s
+                                    </p>
+                                    <figure class="figure"><img alt="Image placeholder" src="../assets/img/blog/blog-1.jpg" class="img-fluid shadow rounded">
+                                        <figcaption class="mt-3 dark-color">Figure one: Type here your description</figcaption>
+                                    </figure>
+                                    <h5 class="pt-3 mb-3">What are my payment options?</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.s
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-6 card card-body flex-sm-row justify-content-between align-items-center">
+                                <h5 class="my-3">Did you find this article helpful?</h5>
+                                <div class="d-flex">
+                                    <a href="#" class="btn btn-outline-success btn-sm rounded-pill ms-2">Yes</a>
+                                    <a href="#" class="btn btn-outline-danger btn-sm rounded-pill ms-2">No</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-3 sticky-lg-top">
+                            <div class="card">
+                                <div class="card-header bg-transparent py-3">
+                                    <span class="h6 m-0">Categories</span>
+                                </div>
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-check-circle-fill me-2"></i>
+                                            <span>Theme integration</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-phone-fill me-2"></i>
+                                            <span>Customization</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-collection-fill me-2"></i>
+                                            <span>Fonts and colors</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-stickies-fill me-2"></i>
+                                            <span>Updates</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-symmetry-vertical me-2"></i>
+                                            <span>Premium support</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card mt-5">
+                                <div class="card-header bg-transparent py-3">
+                                    <span class="h6 m-0">Categories</span>
+                                </div>
+                                <div class="list-group list-group-flush">
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-check-circle-fill me-2"></i>
+                                            <span>Theme integration</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-phone-fill me-2"></i>
+                                            <span>Customization</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-collection-fill me-2"></i>
+                                            <span>Fonts and colors</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-stickies-fill me-2"></i>
+                                            <span>Updates</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between py-3">
+                                        <div>
+                                            <i class="bi bi-symmetry-vertical me-2"></i>
+                                            <span>Premium support</span>
+                                        </div>
+                                        <div>
+                                            <i class="bi bi-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

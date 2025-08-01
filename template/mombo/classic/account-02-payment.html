@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <div class="header-height-bar"></div>
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top header-height bg-body border-bottom",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <!-- section -->
+            <section class="pb-4 pt-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header pt-12" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);"></div>
+                                <div class="card-body pt-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+                                        <div class="d-flex align-items-center mt-n4">
+                                            <div class="avatar-xl">
+                                                <img class="rounded-circle border border-2 border-white" src="../assets/img/team/team-1.jpg" title="" alt="">
+                                            </div>
+                                            <div class="col ps-3 pt-6">
+                                                <h5 class="m-0">Julia Roberts</h5>
+                                                <span>@Julia</span>
+                                            </div>
+                                        </div>
+                                        <div class="ms-auto d-none d-lg-block">
+                                            <button class="btn btn-primary-soft btn-icon">
+                                                <span class="btn-inner--text">
+                                                    Setting
+                                                </span>
+                                                <i class="bi bi-gear"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex align-items-center d-lg-none">
+                                    <h5 class="m-0">Menu</h5>
+                                    <button class="btn btn-primary ms-auto px-2 py-1 d-inline-flex align-items-center justify-content-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        <i class="bi bi-list fs-3 lh-1"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End section -->
+            <!-- Section -->
+            <section class="section pt-0">
+                <div class="container">
+                    <div class="row">
+                        <!-- Sidebar -->
+                        <div class="col-lg-3">
+                            <div class="card collapse d-lg-block mb-4" id="collapseExample">
+                                <div class="card-body">
+                                    <h6 class="text-uppercase small mb-2">Account</h6>
+                                    <ul class="nav nav-sub mb-4">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="account-overview.html">
+                                                <i class="bi-person-fill nav-icon"></i> Personal info
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="account-security.html">
+                                                <i class="bi-shield-fill nav-icon"></i> Login & security
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="account-notifications.html">
+                                                <i class="bi-bell-fill nav-icon"></i> Notifications
+                                                <span class="badge bg-primary text-white rounded-pill">1</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="text-uppercase small mb-2">Billing</h6>
+                                    <ul class="nav nav-sub">
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="account-payment.html">
+                                                <i class="bi-credit-card nav-icon"></i> Plans &amp; payment
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="account-address.html">
+                                                <i class="bi-map nav-icon"></i> Address
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="account-team.html">
+                                                <i class="bi-person-workspace nav-icon"></i> Teams
+                                                <span class="badge bg-primary text-white rounded-pill">+2 new users</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link " href="#">
+                                                <i class="bi-lock-fill nav-icon"></i> Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Sidebar -->
+                        <!-- Content -->
+                        <div class="col-lg-9">
+                            <div class="card mb-4">
+                                <div class="d-lg-flex justify-content-between align-items-center card-header">
+                                    <div class="mb-3 mb-lg-0">
+                                        <h5 class="m-0">Current Plan</h5>
+                                        <span>Below your current active plan information.</span>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="btn btn-outline-primary btn-sm">Switch to Annual Billing</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h2 class="fw-bold mb-0 h5">$95/Monthly</h2>
+                                    <p class="mb-0">
+                                        Your next monthly charge of <span class="text-success">$95</span> will be applied to your primary payment method on
+                                        <span class="text-success">July 25, 2022.</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <h5 class="m-0">Payment Methods</h5>
+                                    <span>Primary payment method is used by default</span>
+                                </div>
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item px-0 pb-3 pt-0">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex">
+                                                    <img src="../assets/img/card/visa.svg" alt="" class="me-3">
+                                                    <div>
+                                                        <h5 class="mb-0 h6">Visa ending in 9999</h5>
+                                                        <p class="mb-0 small">Expires in 09/2023</p>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="badge bg-success me-4">Primary</span>
+                                                    <span class="dropdown">
+                                                        <a class="text-muted text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <i class="bi bi-three-dots-vertical"></i>
+                                                        </a>
+                                                        <span class="dropdown-menu dropdown-menu-end shadow">
+                                                            <span class="dropdown-header">Setting </span>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-edit dropdown-item-icon"></i>Edit</a>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-trash dropdown-item-icon"></i>Remove</a>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-credit-card dropdown-item-icon"></i>Make it Primary</a>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item px-0 py-3">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex">
+                                                    <img src="../assets/img/card/mastercard.svg" alt="" class="me-3">
+                                                    <div>
+                                                        <h5 class="mb-0 h6">Mastercard ending in 9999</h5>
+                                                        <p class="mb-0 small">Expires in 09/2023</p>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="dropdown">
+                                                        <a class="text-muted text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <i class="bi bi-three-dots-vertical"></i>
+                                                        </a>
+                                                        <span class="dropdown-menu dropdown-menu-end shadow">
+                                                            <span class="dropdown-header">Setting </span>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-edit dropdown-item-icon"></i>Edit</a>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-trash dropdown-item-icon"></i>Remove</a>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-credit-card dropdown-item-icon"></i>Make it Primary</a>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item px-0 py-3">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex">
+                                                    <img src="../assets/img/card/discover.svg" alt="" class="me-3">
+                                                    <div>
+                                                        <h5 class="mb-0 h6">Discover ending in 9999</h5>
+                                                        <p class="mb-0 small">Expires in 09/2023</p>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="dropdown">
+                                                        <a class="text-muted text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <i class="bi bi-three-dots-vertical"></i>
+                                                        </a>
+                                                        <span class="dropdown-menu dropdown-menu-end shadow">
+                                                            <span class="dropdown-header">Setting </span>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-edit dropdown-item-icon"></i>Edit</a>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-trash dropdown-item-icon"></i>Remove</a>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-credit-card dropdown-item-icon"></i>Make it Primary</a>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item px-0 py-3">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex">
+                                                    <img src="../assets/img/card/americanexpress.svg" alt="" class="me-3">
+                                                    <div>
+                                                        <h5 class="mb-0 h6">American ending in 9999</h5>
+                                                        <p class="mb-0 small">Expires in 09/2023</p>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <span class="dropdown">
+                                                        <a class="text-muted text-decoration-none" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <i class="bi bi-three-dots-vertical"></i>
+                                                        </a>
+                                                        <span class="dropdown-menu dropdown-menu-end shadow">
+                                                            <span class="dropdown-header">Setting </span>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-edit dropdown-item-icon"></i>Edit</a>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-trash dropdown-item-icon"></i>Remove</a>
+                                                            <a class="dropdown-item" href="#"><i class="fe fe-credit-card dropdown-item-icon"></i>Make it Primary</a>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="border-top pt-4">
+                                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#paymentModal">Add Payment Method</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Content -->
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="nav-item d-none">
+        <button class="dropdown-toggle btn theme-switch-01" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+            <span class="bi theme-icon-active">
+                <i class="bi-circle-half"></i>
+            </span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end  shadow" aria-labelledby="bd-theme" style="--bs-dropdown-min-width: 8rem;">
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                    <span class="bi me-2 opacity-50 theme-icon">
+                        <i class="bi-sun-fill"></i>
+                    </span>
+                    Light
+                    <span class="bi ms-auto d-none">
+                        <i class="bi-check2"></i>
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                    <span class="bi me-2 opacity-50 theme-icon">
+                        <i class="bi-moon-stars-fill"></i>
+                    </span>
+                    Dark
+                    <span class="bi ms-auto d-none">
+                        <i class="bi-check2"></i>
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                    <span class="bi me-2 opacity-50 theme-icon">
+                        <i class="bi-circle-half"></i>
+                    </span>
+                    Auto
+                    <span class="bi ms-auto d-none">
+                        <i class="bi-check2"></i>
+                    </span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="wrapper">
+        <!-- Main -->
+        <main>
+            <!-- Section -->
+            <section class="bg-dark">
+                <div class="container">
+                    <div class="row justify-content-center min-vh-100 align-items-center py-10">
+                        <div class="col-lg-8 text-center">
+                            <div class="pb-5">
+                                <img src="../assets/img/effect/405.svg" title="" alt="">
+                            </div>
+                            <h3 class="text-white display-4">404 - Page Not Found..</h3>
+                            <div class="pt-6">
+                                <a class="btn btn-light" href="../index.html">Back to Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End section -->
+        </main>
+        <!-- End Main -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

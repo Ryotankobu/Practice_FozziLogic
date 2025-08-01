@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+        "path": "",
+        "FontsURL": "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+        "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+            "path": "..",
+            "imgPath": "../../assets",
+            "HeaderClass": "navbar-light fixed-top navbar-transparent header-height",
+            "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            <!-- Page Title -->
+            @@include('./page-heading/_page-heading-01.html', {
+                "title": "Counters",
+            })
+            <!-- Section -->
+            <section class="counter section">
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-6 col-lg-3 col-md-6 my-3">
+                            <div class="border bg-body line-hover p-4 rounded text-center">
+                                <div class="only-icon only-icon-lg d-inline-block mb-3">
+                                    <i class="bi-laptop"></i>
+                                </div>
+                                <h6 class="purecounter h3 mb-0" data-purecounter-start="0" data-purecounter-end="4506"></h6>
+                                <span>Happy Clients</span>
+                            </div>
+                        </div>
+                        <div class=" col-6 col-lg-3 col-md-6 my-3">
+                            <div class="border bg-body line-hover p-4 rounded text-center">
+                                <div class="only-icon only-icon-lg d-inline-block mb-3">
+                                    <i class="bi-camera"></i>
+                                </div>
+                                <h6 class="purecounter h3 mb-0" data-purecounter-start="0" data-purecounter-end="4506"></h6>
+                                <span>Photo Capture</span>
+                            </div>
+                        </div>
+                        <div class=" col-6 col-lg-3 col-md-6 my-3">
+                            <div class="border bg-body line-hover p-4 rounded text-center">
+                                <div class="only-icon only-icon-lg d-inline-block mb-3">
+                                    <i class="bi-layers"></i>
+                                </div>
+                                <h6 class="purecounter h3 mb-0" data-purecounter-start="0" data-purecounter-end="1280"></h6>
+                                <span>Projects</span>
+                            </div>
+                        </div>
+                        <div class=" col-6 col-lg-3 col-md-6 my-3">
+                            <div class="border bg-body line-hover p-4 rounded text-center">
+                                <div class="only-icon only-icon-lg d-inline-block mb-3">
+                                    <i class="bi-chat"></i>
+                                </div>
+                                <h6 class="purecounter h3 mb-0" data-purecounter-start="0" data-purecounter-end="9642"></h6>
+                                <span>Clients call</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="counter section bg-gray-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 my-3">
+                            <div class="d-flex">
+                                <div class="icon icon-xl rounded-circle bg-primary text-white">
+                                    <i class="bi-laptop"></i>
+                                </div>
+                                <div class="col ps-4 align-self-center">
+                                    <h6 class="purecounter h4 mb-0" data-purecounter-start="0" data-purecounter-end="640"></h6>
+                                    <span>Happy Clients</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 my-3">
+                            <div class="d-flex">
+                                <div class="icon icon-xl rounded-circle bg-primary text-white">
+                                    <i class="bi-camera"></i>
+                                </div>
+                                <div class="col ps-4 align-self-center">
+                                    <h6 class="purecounter h4 mb-0" data-purecounter-start="0" data-purecounter-end="890"></h6>
+                                    <span>Photo Capture</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 my-3">
+                            <div class="d-flex">
+                                <div class="icon icon-xl rounded-circle bg-primary text-white">
+                                    <i class="bi-layers"></i>
+                                </div>
+                                <div class="col ps-4 align-self-center">
+                                    <h6 class="purecounter h4 mb-0" data-purecounter-start="0" data-purecounter-end="290"></h6>
+                                    <span>Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 my-3">
+                            <div class="d-flex">
+                                <div class="icon icon-xl rounded-circle bg-primary text-white">
+                                    <i class="bi-chat"></i>
+                                </div>
+                                <div class="col ps-4 align-self-center">
+                                    <h6 class="purecounter h4 mb-0" data-purecounter-start="0" data-purecounter-end="260"></h6>
+                                    <span>Clients call</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Section -->
+            <section class="counter section">
+                <div class="container">
+                    <div class="row separated">
+                        <div class="col-sm-6 col-lg-3 col-md-6">
+                            <div class="d-flex py-2 px-3">
+                                <div class="only-icon only-icon-lg text-primary">
+                                    <i class="bi-laptop"></i>
+                                </div>
+                                <div class="col ps-3 align-self-center">
+                                    <h6 class="purecounter h4 mb-0" data-purecounter-start="0" data-purecounter-end="260"></h6>
+                                    <span>Happy Clients</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 col-md-6">
+                            <div class="d-flex py-2 px-3">
+                                <div class="only-icon only-icon-lg text-primary">
+                                    <i class="bi-camera"></i>
+                                </div>
+                                <div class="col ps-3 align-self-center">
+                                    <h6 class="purecounter h4 mb-0" data-purecounter-start="0" data-purecounter-end="260"></h6>
+                                    <span>Photo Capture</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 col-md-6">
+                            <div class="d-flex py-2 px-3">
+                                <div class="only-icon only-icon-lg text-primary">
+                                    <i class="bi-layers"></i>
+                                </div>
+                                <div class="col ps-3 align-self-center">
+                                    <h6 class="purecounter h4 mb-0" data-purecounter-start="0" data-purecounter-end="260"></h6>
+                                    <span>Projects</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3 col-md-6">
+                            <div class="d-flex py-2 px-3">
+                                <div class="only-icon only-icon-lg text-primary">
+                                    <i class="bi-chat"></i>
+                                </div>
+                                <div class="col ps-3 align-self-center">
+                                    <h6 class="purecounter h4 mb-0" data-purecounter-start="0" data-purecounter-end="260"></h6>
+                                    <span>Clients call</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <section class="py-6 bg-gray-100">
+                <div class="container">
+                    <div class="row counter">
+                        <div class="col-6 col-lg-3 my-3 text-center">
+                            <h2 class="purecounter h1" data-purecounter-start="0" data-purecounter-end="650"></h2>
+                            <h6 class="text-primary m-0">Happy Clients</h6>
+                        </div>
+                        <div class="col-6 col-lg-3 my-3 text-center">
+                            <h2 class="purecounter h1" data-purecounter-start="0" data-purecounter-end="987"></h2>
+                            <h6 class="text-primary m-0">work Completed</h6>
+                        </div>
+                        <div class="col-6 col-lg-3 my-3 text-center">
+                            <h2 class="purecounter h1" data-purecounter-start="0" data-purecounter-end="350"></h2>
+                            <h6 class="text-primary m-0">Award Winning</h6>
+                        </div>
+                        <div class="col-6 col-lg-3 my-3 text-center">
+                            <h2 class="purecounter h1" data-purecounter-start="0" data-purecounter-end="850"></h2>
+                            <h6 class="text-primary m-0">Telephonic Talk</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Section -->
+            <!-- Section -->
+            <div class="py-7 bg-primary">
+                <div class="container">
+                    <div class="row counter">
+                        <div class="col-6 col-lg-3 my-3 text-center">
+                            <div class="purecounter text-white h1 fw-600 mb-1" data-purecounter-start="0" data-purecounter-end="650"></div>
+                            <p class="text-white-50 after-50px bg-light-after pb-3 m-0">Happy Clients</p>
+                        </div>
+                        <div class="col-6 col-lg-3 my-3 text-center">
+                            <div class="purecounter text-white h1 fw-600 mb-1" data-purecounter-start="0" data-purecounter-end="987"></div>
+                            <p class="text-white-50 after-50px bg-light-after pb-3 m-0">Work Completed</p>
+                        </div>
+                        <div class="col-6 col-lg-3 my-3 text-center">
+                            <div class="purecounter text-white h1 fw-600 mb-1" data-purecounter-start="0" data-purecounter-end="350"></div>
+                            <p class="text-white-50 after-50px bg-light-after pb-3 m-0">Award Winning</p>
+                        </div>
+                        <div class="col-6 col-lg-3 my-3 text-center">
+                            <div class="purecounter text-white h1 fw-600 mb-1" data-purecounter-start="0" data-purecounter-end="850"></div>
+                            <p class="text-white-50 after-50px bg-light-after pb-3 m-0">Telephonic Talk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Section -->
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_02.html', {
+            "path": ".",
+            "imgPath": "../../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    @@include('./_scripts.html', {
+            "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>

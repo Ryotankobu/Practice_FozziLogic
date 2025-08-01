@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="zxx" data-bs-theme="dark">
+
+<head>
+    @@include('./_head.html', {
+    "path": "",
+    "FontsURL":
+    "https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap",
+    "CSSName": "style",
+    })
+</head>
+
+<body>
+    <!-- Skippy & Prload -->
+    @@include('./_skippy.html',{
+    "path": "",
+    })
+    <!-- Edn Skippy & Prload -->
+    <!-- 
+    ========================
+        Wrapper 
+    ========================
+    -->
+    <div class="wrapper">
+        <!-- Header -->
+        @@include('./header/_classic_header.html',{
+        "path": "..",
+        "imgPath": "../../assets",
+        "HeaderClass": "navbar-light fixed-top navbar-transparent",
+        "ContainerClass": "container position-relative",
+        })
+        <!-- End Header -->
+        <!-- Main -->
+        <main>
+            
+            <div class="swiper swiper-container" data-swiper-options='{
+                "slidesPerView": 1,
+                "spaceBetween": 0,
+                "loop": true,
+                "navigation": {
+                  "nextEl": ".swiper-next-01",
+                  "prevEl": ".swiper-prev-01"
+                },
+                "autoplay": {
+                  "delay": 5000,
+                  "disableOnInteraction": false
+                }
+              }'>
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="bg-cover bg-no-repeat effect-section" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                          <div class="mask bg-black opacity-50"></div>
+                          <div class="container position-relative px-5 px-lg-3">
+                              <div class="row min-vh-100 align-items-center py-12 justify-content-center">
+                                  <div class="col-lg-8 pt-8 text-center">
+                                      <h6 class="text-white mb-3">What We provide</h6>
+                                      <h1 class="display-4 lh-sm text-white mb-3">Build customer relationships through conversation</h1>
+                                      <div class="w-lg-90 mx-auto">
+                                          <p class="fs-lg text-white text-opacity-65">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                      </div>
+                                      <div class="pt-3">
+                                          <a class="btn btn-outline-white me-3" href="#">Let's talk</a>
+                                          <a class="btn btn-outline-white" href="#">Our projects</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="bg-cover bg-no-repeat effect-section" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+                          <div class="mask bg-black opacity-50"></div>
+                          <div class="container position-relative px-5 px-lg-3">
+                              <div class="row min-vh-100 align-items-center py-12 justify-content-center">
+                                  <div class="col-lg-8 pt-8 text-center">
+                                      <h6 class="text-white mb-3">What We provide</h6>
+                                      <h1 class="display-4 lh-sm text-white mb-3">Build customer relationships through conversation</h1>
+                                      <div class="w-lg-90 mx-auto">
+                                          <p class="fs-lg text-white text-opacity-65">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                      </div>
+                                      <div class="pt-3">
+                                          <a class="btn btn-outline-white me-3" href="#">Let's talk</a>
+                                          <a class="btn btn-outline-white" href="#">Our projects</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-arrow-style-04 swiper-next swiper-next-01"><i class="bi bi-chevron-right"></i> </div>
+              <div class="swiper-arrow-style-04 swiper-prev swiper-prev-01"><i class="bi bi-chevron-left"></i></div>
+          </div>
+          <!-- Section -->
+          <section class="section">
+              <div class="container">
+                  <div class="row gy-5 align-items-center">
+                      <div class="col-lg-6 pe-xl-10  wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <h6 class="text-primary mb-3">What We provide</h6>
+                          <h3 class="h1 mb-3">We provide advanced solutions to growin your online business</h3>
+                          <p class="fs-lg pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          <a class="btn btn-primary" href="#">Get Started</a>
+                      </div>
+                      <div class="col-lg-6 position-relative wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <img class="rounded-3" src="../assets/img/about/about-1.jpg" title="" alt="">
+                          <a href="https://www.youtube.com/watch?v=XkagRCnJyV8" class="video-btn icon-xl after-shadow text-white rounded-circle bg-white position-absolute top-0 bottom-0 end-0 start-0 m-auto"><i class="text-dark bi bi-play fs-3"></i></a>
+                      </div>
+                  </div>
+                  <div class="border-top pt-6 pt-lg-8 mt-6 mt-lg-8"></div>
+                  <div class="row gy-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                      <div class="col-md-4">
+                          <div class="d-flex">
+                              <div class="icon-sm rounded-circle bg-primary text-white">
+                                  <i class="bi bi-pencil"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6 class="mb-1">Creative Concept</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="d-flex">
+                              <div class="icon-sm rounded-circle bg-primary text-white">
+                                  <i class="bi bi-box-seam"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6 class="mb-1">Production</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="d-flex">
+                              <div class="icon-sm rounded-circle bg-primary text-white">
+                                  <i class="bi bi-emoji-smile"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6 class="mb-1">Happy Client</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="section bg-gray-100">
+              <div class="container">
+                  <div class="row justify-content-center section-heading">
+                      <div class="col-lg-8 col-xl-6 text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <h6 class="text-primary mb-2">How We Work</h6>
+                          <h3 class="h1 mb-3">Working to build a better.</h3>
+                          <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                  </div>
+                  <div class="row gy-4">
+                      <div class="col-md-4">
+                          <div class="text-center px-lg-5 mb-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                              <div class="icon-lg text-primary mb-4">
+                                  <i class="bi bi-laptop display-3 lh-1"></i>
+                              </div>
+                              <h5>Fully Responsive.</h5>
+                              <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="text-center px-lg-5 mb-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                              <div class="icon-lg text-primary mb-4">
+                                  <i class="bi bi-globe display-3 lh-1"></i>
+                              </div>
+                              <h5>Retina Ready.</h5>
+                              <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="text-center px-lg-5 mb-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                              <div class="icon-lg text-primary mb-4">
+                                  <i class="bi bi-eye display-3 lh-1"></i>
+                              </div>
+                              <h5>Bootstrap Icon.</h5>
+                              <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="text-center px-lg-5 mb-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                              <div class="icon-lg text-primary mb-4">
+                                  <i class="bi bi-bootstrap display-3 lh-1"></i>
+                              </div>
+                              <h5>Built With SASS.</h5>
+                              <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="text-center px-lg-5 mb-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                              <div class="icon-lg text-primary mb-4">
+                                  <i class="bi bi-window display-3 lh-1"></i>
+                              </div>
+                              <h5>Business Stratagy</h5>
+                              <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                          </div>
+                      </div>
+                      <div class="col-md-4">
+                          <div class="text-center px-lg-5 mb-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                              <div class="icon-lg text-primary mb-4">
+                                  <i class="bi bi-code-square display-3 lh-1"></i>
+                              </div>
+                              <h5>W3c Valid Code.</h5>
+                              <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="section effect-section bg-cover bg-fixed" style="background-image: url(../assets/img/bg/bg-banner-1.jpg);">
+              <div class="mask bg-black opacity-60"></div>
+              <div class="container position-relative">
+                  <div class="row align-items-center">
+                      <div class="col-lg-6 pe-xl-12 wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <h2 class="h1 mb-3 text-white">Stay focused on your business. Let us handle the design.</h2>
+                          <p class="text-white text-opacity-65">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                          <div class="pt-2">
+                              <a class="btn btn-outline-light" href="#">Let's talk now</a>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <img src="../assets/img/feature/feature-01.jpg" title="" alt="">
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="section bg-gray-100">
+              <div class="container">
+                  <div class="row justify-content-center section-heading">
+                      <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s">
+                          <h6 class="text-primary mb-2">How We Work</h6>
+                          <h3 class="h1 mb-3">Work Process</h3>
+                          <div class="fs-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                      </div>
+                  </div>
+                  <div class="row gy-4">
+                      <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="card hover-scale-box hover-top">
+                              <div class="card-body p-5">
+                                  <h5>Discuss The Project</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                  <div class="display-5 lh-1 text-primary d-flex m-0 opacity-2">Step 1 <span class="bi bi-arrow-right ms-auto"></span></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="card hover-scale-box hover-top">
+                              <div class="card-body p-5">
+                                  <h5>Develop & Elaborate</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                  <div class="display-5 lh-1 text-primary d-flex m-0 opacity-2">Step 2 <span class="bi bi-arrow-right ms-auto"></span></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="card hover-scale-box hover-top">
+                              <div class="card-body p-5">
+                                  <h5>Final Approvement</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                  <div class="display-5 lh-1 text-primary d-flex m-0 opacity-2">Step 3 <span class="bi bi-arrow-right ms-auto"></span></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="section">
+              <div class="container">
+                  <div class="row justify-content-center section-heading">
+                      <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s">
+                          <h6 class="text-primary mb-2">Testimonials</h6>
+                          <h3 class="h1 mb-3">Our Satisfied Clients.</h3>
+                          <p class="fs-lg m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+                  <div class="swiper swiper-container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s" data-swiper-options='{
+                        "slidesPerView": 1,
+                        "spaceBetween": 24,
+                        "pagination": {
+                          "el": ".swiper-pagination",
+                          "clickable": true
+                        },
+                        "breakpoints": {
+                          "650": {
+                            "slidesPerView": 2
+                          },
+                          "991": {
+                            "slidesPerView": 2
+                          }
+                        }
+                      }'>
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <div class="row g-0 rounded-3 overflow-hidden border mb-4">
+                                  <div class="col-sm-4 d-none d-sm-block">
+                                      <img src="../assets/img/team/team-1.jpg" class="h-100 w-100 object-fit" title="" alt="">
+                                  </div>
+                                  <div class="col-sm-8 p-4">
+                                      <p>I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.</p>
+                                      <h6 class="m-0">Nancy Drew</h6>
+                                      <span>Co-Founder</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="row g-0 rounded-3 overflow-hidden border mb-4">
+                                  <div class="col-sm-4 d-none d-sm-block">
+                                      <img src="../assets/img/team/team-1.jpg" class="h-100 w-100 object-fit" title="" alt="">
+                                  </div>
+                                  <div class="col-sm-8 p-4">
+                                      <p>I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.</p>
+                                      <h6 class="m-0">Nancy Drew</h6>
+                                      <span>Co-Founder</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="row g-0 rounded-3 overflow-hidden border mb-4">
+                                  <div class="col-sm-4 d-none d-sm-block">
+                                      <img src="../assets/img/team/team-1.jpg" class="h-100 w-100 object-fit" title="" alt="">
+                                  </div>
+                                  <div class="col-sm-8 p-4">
+                                      <p>I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.</p>
+                                      <h6 class="m-0">Nancy Drew</h6>
+                                      <span>Co-Founder</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="row g-0 rounded-3 overflow-hidden border mb-4">
+                                  <div class="col-sm-4 d-none d-sm-block">
+                                      <img src="../assets/img/team/team-1.jpg" class="h-100 w-100 object-fit" title="" alt="">
+                                  </div>
+                                  <div class="col-sm-8 p-4">
+                                      <p>I was looking for a modern HTML/Bootstrap template for my project and after exhausting research on the internet finally, find the “Raino Theme”. It is classic, light, and well documented. The theme had good "page speed ranking" on google, contains a lot of front-page variations, prompt support by the designer, and Bootstrap 5 elements for a professional website design.</p>
+                                      <h6 class="m-0">Nancy Drew</h6>
+                                      <span>Co-Founder</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-pagination position-relative mt-4"></div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="section bg-gray-100">
+              <div class="container">
+                  <div class="row justify-content-center section-heading">
+                      <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <h6 class="text-primary mb-2">Price Table</h6>
+                          <h3 class="h1 mb-3">Let’s get some real price done here.</h3>
+                          <p class="fs-lg m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+                  <div class="row gy-4">
+                      <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="card border">
+                              <div class="card-header text-center py-5 border-bottom">
+                                  <div class="icon-lg bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-person"></i>
+                                  </div>
+                                  <h5>Starter</h5>
+                                  <span>Suitable for Starter</span>
+                              </div>
+                              <div class="card-body px-4 py-4 border-bottom text-center">
+                                  <div class="h1 mb-0 pb-2 lh-1">$10</div>
+                                  <span>Billed monthly per user</span>
+                                  <div class="pt-3">
+                                      <a class="btn btn-primary-light" href="#">Get Started</a>
+                                  </div>
+                              </div>
+                              <div class="card-body px-4 py-5">
+                                  <ul class="list-unstyled mb-0">
+                                      <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> 10 GB of Space </li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Projects</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Users</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Datas</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited File Recovery</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="card border">
+                              <div class="card-header text-center py-5 border-bottom">
+                                  <div class="icon-lg bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-person-plus"></i>
+                                  </div>
+                                  <h5>Starter</h5>
+                                  <span>Suitable for Starter</span>
+                              </div>
+                              <div class="card-body px-4 py-4 border-bottom text-center">
+                                  <div class="h1 mb-0 pb-2 lh-1">$10</div>
+                                  <span>Billed monthly per user</span>
+                                  <div class="pt-3">
+                                      <a class="btn btn-primary-light" href="#">Get Started</a>
+                                  </div>
+                              </div>
+                              <div class="card-body px-4 py-5">
+                                  <ul class="list-unstyled mb-0">
+                                      <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> 10 GB of Space </li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Projects</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Users</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Datas</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited File Recovery</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.15s">
+                          <div class="card border">
+                              <div class="card-header text-center py-5 border-bottom">
+                                  <div class="icon-lg bg-primary text-white rounded-3 mb-4">
+                                      <i class="bi bi-person-badge"></i>
+                                  </div>
+                                  <h5>Starter</h5>
+                                  <span>Suitable for Starter</span>
+                              </div>
+                              <div class="card-body px-4 py-4 border-bottom text-center">
+                                  <div class="h1 mb-0 pb-2 lh-1">$10</div>
+                                  <span>Billed monthly per user</span>
+                                  <div class="pt-3">
+                                      <a class="btn btn-primary-light" href="#">Get Started</a>
+                                  </div>
+                              </div>
+                              <div class="card-body px-4 py-5">
+                                  <ul class="list-unstyled mb-0">
+                                      <li class="py-2"><i class="bi-check-circle-fill text-success me-1"></i> 10 GB of Space </li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Projects</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Users</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited Datas</li>
+                                      <li class="py-2"><i class="bi bi-x-circle text-danger me-1"></i> Unlimited File Recovery</li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row pt-6">
+                      <div class="col-md-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="d-flex py-3">
+                              <div class="icon-sm text-primary">
+                                  <i class="bi bi-question-circle-fill fs-5 lh-1"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>How about Refund policy?</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              </div>
+                          </div>
+                          <div class="d-flex py-3">
+                              <div class="icon-sm text-primary">
+                                  <i class="bi bi-question-circle-fill fs-5 lh-1"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>Can I Pay with PayPal?</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              </div>
+                          </div>
+                          <div class="d-flex py-3">
+                              <div class="icon-sm text-primary">
+                                  <i class="bi bi-question-circle-fill fs-5 lh-1"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>Is There a Free Trial?</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                          <div class="d-flex py-3">
+                              <div class="icon-sm text-primary">
+                                  <i class="bi bi-question-circle-fill fs-5 lh-1"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>Do I get free support?</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              </div>
+                          </div>
+                          <div class="d-flex py-3">
+                              <div class="icon-sm text-primary">
+                                  <i class="bi bi-question-circle-fill fs-5 lh-1"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>Can I pay with credit card?</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              </div>
+                          </div>
+                          <div class="d-flex py-3">
+                              <div class="icon-sm text-primary">
+                                  <i class="bi bi-question-circle-fill fs-5 lh-1"></i>
+                              </div>
+                              <div class="col ps-3">
+                                  <h6>How to I cancel subscriptions?</h6>
+                                  <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+          <!-- Section -->
+          <section class="section">
+              <div class="container">
+                  <div class="row justify-content-center section-heading">
+                      <div class="col-lg-8 col-xl-7 text-center wow fadeInUp" data-wow-duration="0.5s">
+                          <h6 class="text-primary mb-2">Blogs</h6>
+                          <h3 class="h1 mb-3">Our latest News.</h3>
+                          <p class="fs-lg m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+                  <div class="row gy-4">
+                      <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="card hover-scale overflow-hidden border">
+                              <a href="#" class="position-relative hover-scale-in">
+                                  <img src="../assets/img/blog/blog-1.jpg" class="card-img-top" title="" alt="">
+                                  <span class="position-absolute bg-primary text-white px-4 py-1 top-0 start-0 mt-3 ms-3 rounded-pill small"><i class="bi bi-calendar"></i> 02 Mar 2019</span>
+                              </a>
+                              <div class="card-body">
+                                  <h6>Make smarter business decisions with data analysis</h6>
+                                  <div class="d-flex pt-3 align-items-center">
+                                      <div class="nav">
+                                          <span class="px-3 py-1 bg-primary bg-opacity-10 text-primary rounded-pill me-2">
+                                              <i class="bi bi-chat"></i>
+                                              <small>20</small>
+                                          </span>
+                                          <span class="px-3 py-1 bg-primary bg-opacity-10 text-primary rounded-pill">
+                                              <i class="bi bi-heart me-1"></i>
+                                              <small>20</small>
+                                          </span>
+                                      </div>
+                                      <a class="ms-auto link-effect" href="#">Read More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="card hover-scale overflow-hidden border">
+                              <a href="#" class="position-relative hover-scale-in">
+                                  <img src="../assets/img/blog/blog-1.jpg" class="card-img-top" title="" alt="">
+                                  <span class="position-absolute bg-primary text-white px-4 py-1 top-0 start-0 mt-3 ms-3 rounded-pill small"><i class="bi bi-calendar"></i> 02 Mar 2019</span>
+                              </a>
+                              <div class="card-body">
+                                  <h6>Make smarter business decisions with data analysis</h6>
+                                  <div class="d-flex pt-3 align-items-center">
+                                      <div class="nav">
+                                          <span class="px-3 py-1 bg-primary bg-opacity-10 text-primary rounded-pill me-2">
+                                              <i class="bi bi-chat"></i>
+                                              <small>20</small>
+                                          </span>
+                                          <span class="px-3 py-1 bg-primary bg-opacity-10 text-primary rounded-pill">
+                                              <i class="bi bi-heart me-1"></i>
+                                              <small>20</small>
+                                          </span>
+                                      </div>
+                                      <a class="ms-auto link-effect" href="#">Read More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.05s">
+                          <div class="card hover-scale overflow-hidden border">
+                              <a href="#" class="position-relative hover-scale-in">
+                                  <img src="../assets/img/blog/blog-1.jpg" class="card-img-top" title="" alt="">
+                                  <span class="position-absolute bg-primary text-white px-4 py-1 top-0 start-0 mt-3 ms-3 rounded-pill small"><i class="bi bi-calendar"></i> 02 Mar 2019</span>
+                              </a>
+                              <div class="card-body">
+                                  <h6>Make smarter business decisions with data analysis</h6>
+                                  <div class="d-flex pt-3 align-items-center">
+                                      <div class="nav">
+                                          <span class="px-3 py-1 bg-primary bg-opacity-10 text-primary rounded-pill me-2">
+                                              <i class="bi bi-chat"></i>
+                                              <small>20</small>
+                                          </span>
+                                          <span class="px-3 py-1 bg-primary bg-opacity-10 text-primary rounded-pill">
+                                              <i class="bi bi-heart me-1"></i>
+                                              <small>20</small>
+                                          </span>
+                                      </div>
+                                      <a class="ms-auto link-effect" href="#">Read More</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- End Section -->
+      
+        </main>
+        <!-- End Main -->
+        <!-- Footer -->
+        @@include('./footer/_classic_footer_14.html', {
+        "path": ".",
+        "imgPath": "../assets",
+        })
+        <!-- End Footer -->
+    </div>
+    <!-- 
+    ========================
+       End Wrapper 
+    ========================
+    -->
+    <!-- script start -->
+    
+    @@include('./_scripts.html', {
+    "path": "",
+    })
+    <!-- End script start -->
+</body>
+
+</html>
